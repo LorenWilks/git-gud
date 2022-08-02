@@ -3,7 +3,7 @@ import { Card } from "semantic-ui-react";
 import OneGame from "./OneGame"
 
 
-function GamesPage({ selectedGenre, games, searchInput }) {
+function GamesPage({ selectedGenres, games, searchInput }) {
 
     const gameCards = games
         .filter(game => {
@@ -11,6 +11,15 @@ function GamesPage({ selectedGenre, games, searchInput }) {
             const lowerCaseInput = searchInput.toLowerCase()
 
             return lowerCaseGameName.includes(lowerCaseInput)
+        })
+        .filter(game => {
+            if (selectedGenres.length === 0) {
+                return true
+            }
+            const foundGenre = selectedGenres.find(genre => {
+                return genre === game.genre
+            })
+            return foundGenre !== undefined
         })
         .map(game => {
             return (

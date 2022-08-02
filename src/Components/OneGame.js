@@ -16,12 +16,6 @@ function OneGame ({ game }) {
                 Description: {game.description}
             </Card.Description>
             </Card.Content>
-            {/* <Card.Content extra>
-            <a>
-                <Icon name='user' />
-                10 Friends
-            </a>
-            </Card.Content> */}
       </Card>
     )
 }

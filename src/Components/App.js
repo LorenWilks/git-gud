@@ -11,6 +11,7 @@ function App() {
   const [games, setGames] = useState([])
   const [searchInput, setSearchInput] = useState("")
   const [isDarkMode, setIsDarkMode] = useState(false)
+  const [selectedGenres, setSelectedGenres] = useState([])
 
   function toggleMode() {
     setIsDarkMode(!isDarkMode)
@@ -36,7 +37,9 @@ function App() {
         </ThemeContext.Provider>
         <NavBar 
           searchInput={searchInput} 
-          setSearchInput={setSearchInput} />
+          setSearchInput={setSearchInput}
+          selectedGenres={selectedGenres}
+          setSelectedGenres={setSelectedGenres} />
         <Switch>
           <Route exact path="/about">
             <AboutUs />
@@ -44,7 +47,8 @@ function App() {
           <Route exact path="/">
             <GamesPage 
               games={games} 
-              searchInput={searchInput} />
+              searchInput={searchInput}
+              selectedGenres={selectedGenres} />
           </Route>
           {/* <Route path="/login">
             <Login />
