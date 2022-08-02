@@ -3,7 +3,7 @@ import { Card, Image } from 'semantic-ui-react'
 
 function OneGame ({ game }) {
     return (  
-        <Card round>
+        <Card round="true">
             <Image src={game.image} wrapped ui={false} />
             <Card.Content>
             <Card.Header>{game.name}</Card.Header>
