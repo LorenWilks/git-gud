@@ -1,455 +1,776 @@
-{ 
-    "games" : [
-        {
-            "id": 1,
-            "name": "League of Legends",
-            "description": "In the game, two teams of five players battle in player-versus-player combat. Each team occupying and defending their half of the map. Each of the ten players controls a character, known as a champion, with unique abilities and differing styles of play. During a match, champions become more powerful by collecting experience points, earning gold, and purchasing items to defeat the opposing team",
-            "genre": "MOBA",
-            "image": "https://m.media-amazon.com/images/M/MV5BYjM2NmU3YmEtZDI1OC00NTQ5LWJmOGMtYmZmNGUyMWRlODBmXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_FMjpg_UX1000_.jpg",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "OS X"],
-            "reviews": []
-        },
-        {
-            "id": 2,
-            "name": "Dota 2",
-            "description": "Dota 2 is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map. Each of the ten players independently controls a powerful character known as a hero that all have unique abilities and differing styles of play. During a match players collect experience points and items for their heroes to successfully defeat the opposing team's heroes in player versus player combat. A team wins by being the first to destroy the other team's Ancient, a large structure located within their base.",
-            "genre": "MOBA",
-            "image": "https://i.gadgets360cdn.com/products/large/7295201-1000x1333-1644822437.jpeg",
-            "rating system": 0,
-            "platforms": ["Windows", "Linus", "OS X"],
-            "reviews": []
-        },
-        {
-            "id": 3,
-            "name": "Smite",
-            "description": "In Smite, players control a god, goddess or other mythological figure and take part in team-based combat, using their abilities and tactics against other player-controlled gods and non-player-controlled minions.",
-            "genre": "MOBA",
-            "image": "https://image.api.playstation.com/cdn/UP0334/CUSA02328_00/icacOvay7oqWXCVT3Z5yHlmBRrgqSGgzCS9ZKKoYvbq5eDadEMEpfjWJKoPYxEWI.png",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "Xbox One", "PS4", "Nintendo Switch", "Amazon Luna"],
-            "reviews": []
-        },
-        {
-            "id": 4,
-            "name": "Heroes of Newerth",
-            "description": "Heroes of Newerth pits two teams of players against each other: the Legion and the Hellbourne. Both teams are based at opposite corners of the map in their respective bases. Bases consist of buildings, barracks, towers, a hero spawning pool, and a central structure. The goal of the game is to either destroy the central structure, the World Tree (Legion) or Sacrificial Shrine (Hellbourne), of the opposite base or force the other team to concede. Players achieve this by selecting heroes with unique skills to combat the other team.",
-            "genre": "MOBA",
-            "image": "https://www.aroged.com/wp-content/uploads/2022/06/MOBA-Heroes-of-Newerth-servers-will-be-shut-down-today.jpeg",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows"],
-            "reviews": []
-        },
-        {
-            "id": 5,
-            "name": "Vainglory",
-            "description": "The two opposing teams of three or five players fight to destroy the enemy by controlling the path between the bases, which is lined by turrets and guarded by AI-controlled enemy creatures called minions. Off the path, players battle for control points that provide resources.",
-            "genre": "MOBA",
-            "image": "https://www.superevilmegacorp.com/wp-content/uploads/2019/02/Vainglory_Art.png",
-            "rating system": 0,
-            "platforms": ["IOS", "Android, Microsoft Windows", "ChromeOS", "macOS"],
-            "reviews": []
-        },
-        {
-            "id": 6,
-            "name": "CounterStrike",
-            "description": "Set in various locations around the globe, players assume the roles of counter-terrorist forces and terrorist militants opposing them. During each round of gameplay, the two teams are tasked with defeating the other by the means of either achieving the map's objectives or eliminating all of the enemy combatants. Each player may customize their arsenal of weapons and accessories at the beginning of every match, with currency being earned after the end of each round.",
-            "genre": "FPS",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FvLmR4mFfsws%2Fmaxresdefault.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "OS X", "Linux", "Xbox One"],
-            "reviews": []
-        },
-        {
-            "id": 7,
-            "name": "Overwatch",
-            "description": "Described as a hero shooter, Overwatch assigns players into two teams of six, with each player selecting from a large roster of characters, known as heroes, with unique abilities. Teams work to complete map-specific objectives within a limited period of time.",
-            "genre": "FPS",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.playbuzz.com%2Fimage%2Fupload%2Far_1.5%2Cc_pad%2Cf_jpg%2Cb_auto%2Fcdn%2F5371b1e4-cc0b-4eea-930a-8e269b736775%2F72325bb8-2e85-4aaa-8690-75c58a2f6719.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "PS4", "Xbox One", "Nintendo Switch"],
-            "reviews": []
-        },
-        {
-            "id": 8,
-            "name": "Halo",
-            "description": "Primarily taking place in the 26th century, the franchise centers on conflict between humanity and a variety of alien species. The artifacts of a long-disappeared race, the Forerunners, play a key role; the eponymous Halo Array are immense, habitable and ring-shaped superweapons that were created by the Forerunners to destroy the parasitic Flood, but which the alien Covenant mistake for religious artifacts of transcendence.",
-            "genre": "FPS",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.nextlevelgaming.ca%2Fwp-content%2Fuploads%2F2018%2F03%2Fhalo-5-wallpaper-1920x1080-viewwallpaper-wallpaperwallpaper-halo-5-guardians-01titelhalo-5-guardiansnummer01normal1.jpg%3Ffit%3D1920%252C1080%26ssl%3D1&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Xbox", "Microsoft Windows", "Xbox 360", "Windows Phone", "iOS", "Xbox One", "Arcade", "Xbox Series X/S"],
-            "reviews": []
-        },
-        {
-            "id": 9,
-            "name": "Star Wars BattleFront",
-            "description": "A series of first- and third-person shooter video games based on the Star Wars films. Players take the role of soldiers in either of two opposing armies in different time periods of the Star Wars universe.",
-            "genre": "FPS",
-            "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi0.wp.com%2Fwww.heyuguys.com%2Fimages%2F2015%2F04%2FBattlefront.jpg%3Fresize%3D4785%252C2553&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "PS2", "PS Portable", "PS4", "Nintendo DS", "Mobile Phone", "Xbox", "Xbox One"],
-            "reviews": []
-
-        },
-        {
-            "id": 10,
-            "name": "Call of Duty",
-            "description": "As a first-person shooter, Call of Duty places the player in control of an infantry soldier who makes use of various authentic World War II firearms in combat. Each mission features a series of objectives that are marked on the heads-up display's compass; the player must complete all objectives to advance to the next mission.",
-            "genre": "FPS",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwalldiskpaper.com%2Fwp-content%2Fuploads%2F2014%2F12%2FCall-Of-Duty-Wallpaper-Iphone-.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "Mac OS X", "N-Gage", "PS3", "Xbox 360"],
-            "reviews": []
-        },
-        {
-            "id": 11,
-            "name": "Apex Legends",
-            "description": "In Battle Royale, up to 20 three-person squads or 30 two-person duos land on an island and search for weapons and supplies before attempting to defeat all other players in combat. The available play area on the island shrinks over time, forcing players to keep moving or else find themselves outside the play area which can be fatal. The final team alive wins the round. In Arenas, players form into three-player squads and fight against another squad in a 3v3 team deathmatch over a series of rounds to determine the winner of the match. Teams win when their team has at least 3 points and is 2 points ahead.",
-            "genre": "Battle Royal Game",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-K9t77R-3XXA%2FXLMOzIGCKCI%2FAAAAAAAABso%2FTavpV-d_sfwFRqT8OtVFCAr95wXghiFdACLcBGAs%2Fs1600%2Fapex%252Blegends%252Bpc.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "PS4", "Xbox One", "Nintendo Switch", "PS5", "Xbox Series X/S", "Android", "iOS"],
-            "reviews": []
-        },
-        {
-            "id": 12,
-            "name": "Fall Guys",
-            "description": "The game involves up to 60 players who control jellybean-like creatures and compete against each other in a series of randomly selected mini-games, such as obstacle courses or tag. Players are eliminated as the rounds progress until, eventually, the last remaining player is crowned the winner.",
-            "genre": "Battle Royal Game",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mercurynews.com%2Fwp-content%2Fuploads%2F2020%2F08%2FFall-Guys-Key-Art_Thumb-1.jpg%3Fw%3D1860&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "PS4", "Nintendo Switch", "PS5", "Xbox One", "Xbox Series X/S", "Android", "iOS"],
-            "reviews": []
-        },
-        {
-            "id": 13,
-            "name": "Fornite",
-            "description": "A player-versus-player game for up to 100 players, allowing one to play alone, in a duo, or in a squad (usually consisting of three or four players). Weaponless players airdrop from a Battle Bus that crosses the game's map. When they land, they must scavenge for weapons, items, resources, and even vehicles while trying to stay alive and to attack and eliminate other players. Over the course of a round, the safe area of the map shrinks down in size due to an incoming toxic storm; players outside that threshold take damage and can be eliminated if they fail to quickly evacuate. This forces remaining players into tighter spaces and encourages player encounters. The last player, duo, or squad remaining is the winner.",
-            "genre": "Battle Royal Game",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Feveripedia-storage.s3-accelerate.amazonaws.com%2FProfilePics%2Ffortnite__73392.jpeg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "macOS", "PS4", "PS5", "Xbox One", "Xbox Series X/S", "iOS", "Nintendo Switch", "Android"],
-            "reviews": []
-        },
-        {
-            "id": 14,
-            "name": "PlayerUnknown's Battlegrounds",
-            "description": "A player versus player shooter game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive. Players can choose to enter the match solo, duo, or with a small team of up to four people. The last person or team alive wins the match.",
-            "genre": "Battle Royal Game",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAATXAJy4nPoQci-6e56QnGP_jn-0LgI_w8vBkTzSatjG%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "Android", "iOS", "Xbox One", "PS4", "Stadia", "Xbox Series X/S", "PS5"],
-            "reviews": []
-        },
-        {
-            "id": 15,
-            "name": "Call of Duty Warzone",
-            "description": "The Battle Royale mode is similar to other titles in the genre where players compete in a continuously shrinking map to be the last player remaining. Players parachute onto a large game map, where they encounter other players. As the game progresses and players are eliminated, the playable area shrinks, forcing the remaining players into tighter spaces. In Warzone, the non-playable areas become contaminated with a yellow gas that depletes health and eventually kills the player if they do not return to the safe playable area.",
-            "genre": "Battle Royal Game",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn1.dotesports.com%2Fwp-content%2Fuploads%2F2021%2F06%2F14121316%2Fcodwz25.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "PS4", "Xbox One", "PS5", "Xbox Series X/S"],
-            "reviews": []
-        },
-        {
-            "id": 16,
-            "name": "Mortal Kombat",
-            "description": "The original three games and their updates, Mortal Kombat (1992), Mortal Kombat II (1993), Mortal Kombat 3 (1995), Ultimate Mortal Kombat 3 (1995), and Mortal Kombat Trilogy (1996), were 2D fighting games. The arcade cabinet versions of the first two used a joystick and five buttons: high punch, low punch, high kick, low kick, and block; Mortal Kombat 3 and its updates added a sixth run button. Characters in the early Mortal Kombat games play virtually identically to one another, with the only major differences being their special moves.",
-            "genre": "Fighting Games",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic3.gamerantimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2019%2F11%2FMortal-Kombat-Ninjas.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Android, iOS", "Microsoft Windows", "Nintendo DS", "Nintendo 64", "Nintendo Switch", "PS", "PS2", "PS3", "PS4", "PS5", "Sega Genesis", "Xbox", "Xbox 360", "Xbox One"],
-            "reviews": []
-        },
-        {
-            "id": 17,
-            "name": "Street Fighter",
-            "description": "Street Fighter, designed by Takashi Nishiyama and Hiroshi Matsumoto, debuted in arcades in 1987. The player controls martial artist Ryu to compete in a worldwide martial arts tournament spanning five countries and 10 opponents. A second player can control Ryu's friendly American rival, Ken Masters. The player can perform three punch and kick attacks, each varying in speed and strength, and three special attacks: the Hadōken, Shōryūken, and Tatsumaki Senpūkyaku, performed by executing special joystick and button combinations.",
-            "genre": "Fighting Games",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.sohaibxtreme.net%2Fwp-content%2Fuploads%2F2020%2F02%2FStreet-Fighter-V-Champion-Edition-CODEX-PC-Direct-Download-Crack-.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Gameboy", "Microsoft Windows", "Nintendo Switch", "Nintendo 3DS", "PS", "PS2", "PS3", "PS4", "PS5", "PS Portable", "Dreamcast", "iOS"],
-            "reviews": []
-        },
-        {
-            "id": 18,
-            "name": "Super Smash Bros.",
-            "description": "In the Super Smash Bros. series differs from many fighting games. Instead of winning by depleting an opponent's life bar, players seek to launch their opponents off the stage and out of bounds. Characters have a damage total which rises as they take damage, represented by a percentage value that measures up to 999%. As a character's percentage rises, the character can be knocked progressively farther by an opponent's attacks.",
-            "genre": "Fighting Games",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wccftech.com%2Fwp-content%2Fuploads%2F2018%2F12%2Fsmash_bros_ultimate_roster_art.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Nintendo 64", "iQue Player", "GameCube", "Wii", "Nintendo 3DS", "Wii U", "Nintendo Switch"],
-            "reviews": []
-        },
-        {
-            "id": 19,
-            "name": "Killer Instinct (2013)",
-            "description": "The gameplay in Killer Instinct retains its traditional combo-based mechanics. The basic elements of combos are Openers, special attacks that start combos; Auto-Doubles, button presses following special attacks that create automatic hit sequences; Linkers, required to join several auto-doubles together; Enders, a sequence which finalizes the combo with increased damage; and Manuals, attacks chains entered outside of the traditional combo structure.",
-            "genre": "Fighting Games",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-TRBLwKLhpk4%2FXhrj4eqKiOI%2FAAAAAAAAXyM%2Fa042LD_MKtwlP6MuJ1O2Rqx93pbcNDfvQCLcBGAsYHQ%2Fw1200-h630-p-k-no-nu%2FKiller%252Binstinct%252Bwww.pcgamefreetop.net%252B%2525281%252529.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Xbox One", "Microsoft Windows", "Xbox Cloud Gaming"],
-            "reviews": []
-        },
-        {
-            "id": 20,
-            "name": "Marvel vs. Capcom",
-            "description": "The gameplay borrows heavily from Capcom's previous Marvel-licensed fighting games X-Men: Children of the Atom and Marvel Super Heroes; however, instead of focusing on single combat, the games incorporated tag team battles. Players form teams of two or three characters and, controlling one fighter at a time, attempt to damage and knock out their opponents. Players can switch out their characters during the match, allowing team members to replenish their health and prolong their ability to fight.",
-            "genre": "Fighting Games",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fc%2F1%2Fa%2F494409-marvel-vs-capcom-wallpaper-1920x1080-windows-xp.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Arcade", "Dreamcast", "iOS", "Microsoft Windows", "PS", "PS2", "PS3", "PS4", "PS Vita", "Sega Saturn", "Xbox", "Xbox 360", "Xbox One"],
-            "reviews": []
-        },
-        {
-            "id": 21,
-            "name": "World of Warcraft",
-            "description": "The game allows players to create a character avatar and explore an open game world in third- or first-person view, exploring the landscape, fighting various monsters, completing quests, and interacting with non-player characters (NPCs) or other players. The game encourages players to work together to complete quests, enter dungeons and engage in player versus player (PvP) combat, however the game can also be played solo without interacting with others. The game primarily focuses on character progression, in which players earn experience points to level up their character to make them more powerful and buy and sell items using in-game currency to acquire better equipment, among other game systems.",
-            "genre": "MMORPG",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvamers-com.exactdn.com%2Fwp-content%2Fuploads%2F2018%2F07%2FVamers-Gaming-World-of-Warcraft-subscription-now-gives-access-to-all-previous-expansions-1.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "Mac OS"],
-            "reviews": []
-        },
-        {
-            "id": 22,
-            "name": "Guild Wars 2",
-            "description": "Guild Wars 2 is the fourth major entry in the Guild Wars series, and claims to be unique in the MMO genre by featuring a storyline that is responsive to player actions, something which is common in single player role-playing games but rarely seen in multiplayer ones. A dynamic event system replaces traditional questing, utilising the ripple effect to allow players to approach quests in different ways as part of a persistent world. Also of note is the combat system, which aims to be more dynamic than its predecessor by promoting synergy between professions and using the environment as a weapon, as well as reducing the complexity of the Magic-style skill system of the original game.",
-            "genre": "MMORPG",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2Fq1siUez3Qp6Hv19RtcBjkHNZCqE%3D%2F0x15%3A480x285%2F1600x900%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_image%2Fimage%2F1950143%2Fguild-wars-2.0.jpeg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows"],
-            "reviews": []
-        },
-        {
-            "id": 23,
-            "name": "Elder Scrolls",
-            "description": "Within the series' fictional universe, each game takes place on the continent of Tamriel. The setting combines pre-medieval real-world elements, such as a powerful Roman-like Empire, with high fantasy medieval themes, including limited technology, widespread magic use, and the existence of many mythological creatures. The continent is split into a number of provinces inhabited by humans and popular humanoid fantasy races such as elves, orcs and anthropomorphic animals. A common theme in the lore is that a chosen hero rises to defeat an incoming threat, usually a malevolent being or an antagonistic army.",
-            "genre": "MMORPG",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2019%2F09%2F730088-elder-scrolls-fantasy-action-rpg-mmo-online-artwork-fighting-skyrim.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Android", "iOS", "macOS", "Microsoft Windows", "Nintendo Switch", "PS3", "PS4", "PS5", "Xbox", "Xbox 360", "Xbox One", "Xbox Series X/S"],
-            "reviews": []
-        },
-        {
-            "id": 24,
-            "name": "Final Fantasy XIV",
-            "description": "Set in the fantasy realm of Eorzea, players took control of a customized avatar as they explore the land and were caught up in both an invasion by the hostile Garlean Empire and the threat of the primals, the deities of the land's beastmen tribes. Eventually, they were embroiled in a plot by a Garlean Legatus to destroy the primals by bringing one of the planet's moons down on Eorzea.",
-            "genre": "MMORPG",
-            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2019%2F10%2F347278-final-fantasy-xiv-realm-reborn-game-adventure-online-34.jpg&f=1&nofb=1",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows"],
-            "reviews": []
-        },
-        {
-            "id": 25,
-            "name": "Star Wars: The Old Republic",
-            "description": "This story takes place in the Star Wars universe shortly after the establishment of a tenuous peace between the re-emergent Sith Empire and the Galactic Republic. The game features eight different classes. Each of the eight classes has a three act storyline that progresses as the character levels up. Players join either the Republic or the Sith, but players may possess a morality at any point along the light/dark spectrum. Different classes favor different styles of gameplay, and the game features extensive customization options, fully voiced dialogue, companion characters, and dialogue options similar to BioWare's other role-playing games.",
-            "genre": "MMORPG",
-            "image": "https://m.media-amazon.com/images/M/MV5BZWY5OGY4YjAtNTNjYi00NTRhLTliOTAtN2U2NDY2ZDJkNTI1XkEyXkFqcGdeQXVyODgxNTA1Ng@@._V1_.jpg",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows"],
-            "reviews": []
-        },
-        {
-            "id": 26,
-            "name": "NHL 22",
-            "description": "The game is developed under license from the National Hockey League (NHL), which enables the use of the league's team names, stadiums and colors in the game, and the National Hockey League Players' Association (NHLPA), which enables the use of the League's player names and likenesses.",
-            "genre": "Sports Game",
-            "image": "https://image.api.playstation.com/vulcan/img/rnd/202109/2314/GESTRx77UAXJAnm3iGjuB4UQ.png",
-            "rating system": 0,
-            "platforms": ["PS4", "PS5", "Xbox One", "Xbox Series X/S"],
-            "reviews": []
-        },
-        {
-            "id": 27,
-            "name": "Madden NFL 22",
-            "description": "An American football video game series developed by EA Tiburon for EA Sports. It is named after Pro Football Hall of Fame coach and commentator John Madden and sold more than 130 million copies by 2018. It is also the only officially licensed National Football League (NFL) video game series, and it has influenced many players and coaches of the physical sport. Among the series' features are detailed playbooks and player statistics and voice commentary in the style of a real NFL television broadcast.",
-            "genre": "Sports Game",
-            "image": "https://m.media-amazon.com/images/M/MV5BZDI2ZDVmYTAtYjhkYi00NTZhLWJlOWEtOTkyNjhlMzhkZDBlXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_.jpg",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "PS4", "PS5", "Xbox One", "Xbox Series X/S", "Stadia"],
-            "reviews": []
-        },
-        {
-            "id": 28,
-            "name": "FIFA",
-            "description": "FIFA 22 introduces HyperMotion Technology, which uses motion capture data collected from 22 real-life players playing a complete, high-intensity football match in motion capture suits. The data collected from player movements, tackles, aerial duels and on-ball actions is used to power FIFA 22 gameplay.",
-            "genre": "Sports Game",
-            "image": "https://mms.businesswire.com/media/20210711005018/en/890552/4/EAS_FIFA22_GEN5.jpg",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "Nintendo Switch", "PS4", "PS5", "Stadia", "Xbox One", "Xbox Series X/S"],
-            "reviews": []
-        },
-        {
-            "id": 29,
-            "name": "Mario Tennis Aces",
-            "description": "The gameplay of Mario Tennis Aces consists of playing matches of tennis with various characters from the Super Mario series. Players can pick from Mario, Luigi, Wario, Peach, Waluigi, Daisy, Rosalina, Yoshi, Donkey Kong, Bowser, Toad, Toadette, Chain Chomp, Bowser Jr., Boo, and Spike. New characters are added by participating in monthly tournaments, or are added to the roster the following month if the player does not participate.",
-            "genre": "Sports Game",
-            "image": "https://static-cdn.jtvnw.net/ttv-boxart/Mario%20Tennis%20Aces.jpg",
-            "rating system": 0,
-            "platforms": ["Nintendo Switch"],
-            "reviews": []
-        },
-        {
-            "id": 30,
-            "name": "Mario Strikers",
-            "description": "Mario Strikers: Battle League is a five versus five soccer video game. The game shies away from realism, in favor of chaotic, over-the-top gameplay.[1] The game maintains the main premise of the sport, where players maneuver players around a field in efforts to pass and shoot a ball into a goal to score points, with the team with the most points at the end of a game winning the game.[2] However, the game takes many liberties with the sport.[3] Aggressive tackles and attacks are completely allowed, though they give the opposing player items to use at their disposal.",
-            "genre": "Sports Game",
-            "image": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_auto/c_scale,w_400/v1/ncom/en_US/games/switch/m/mario-strikers-battle-league-switch/description-image",
-            "rating system": 0,
-            "platforms": ["Nintendo Switch"],
-            "reviews": []
-        },
-        {
-            "id": 31,
-            "name": "Forza Horizon 5",
-            "description": "Forza Horizon 5 is a racing video game set in an open world environment based in a fictional representation of Mexico. The game has the largest map in the entire Forza Horizon series, being 50% larger than its predecessor, Forza Horizon 4, while also having the highest point in the Horizon series. The map was described by creative director Mike Brown as one of the most diverse Forza Horizon maps the team has built. The map contains an active caldera volcano, jungles and beaches, ancient Mayan temples, and towns and cities such as Guanajuato. Players can explore the open world freely, though they can also compete in multiplayer races and complete the campaign mode.",
-            "genre": "Racing Game",
-            "image": "https://whiteaways.lk/wp-content/uploads/2021/11/apps.23625.13806078025361171.9723cf5e-1e29-4d9d-ad0a-cc37a95bb75d.jpg",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "Xbox One", "Xbox Series X/S"],
-            "reviews": []
-        },
-        {
-            "id": 32,
-            "name": "Gran Turismo 7",
-            "description": "Gran Turismo 7 features the return of the single player campaign, GT Simulation Mode. Other returning features is the return of traditional racing tracks and vehicles, Special Events, Championships, Driving School, Tuning Parts Shop, Used Cars dealership, and GT Auto while still retaining the new GT Sport Mode, Brand Central, and Discover that were introduced in Gran Turismo Sport. The player needs to progress through tasks from the GT Cafe to unlock features like multiplayer, and all tracks and cars.",
-            "genre": "Racing Game",
-            "image": "https://image.api.playstation.com/vulcan/ap/rnd/202202/2806/QDzid2jNv4e44kgumGXDCscF.png",
-            "rating system": 0,
-            "platforms": ["PS4", "PS5"],
-            "reviews": []
-        },
-        {
-            "id": 33,
-            "name": "Mario Kart 8 Deluxe",
-            "description": "In the Mario Kart series, players compete in go-kart races, controlling one of a selection of characters, mainly from the Mario franchise. Up to twelve characters can compete in each race (the exact number varies between games). Gameplay is enhanced by power-up items obtained by driving into item boxes laid out on the course. These power-ups include Mushrooms to give players a speed boost, Shells to be thrown at opponents, Banana peels, and Fake Item Boxes as hazards. The game chooses an item based on the player's current position in the race.",
-            "genre": "Racing Game",
-            "image": "https://static.posters.cz/image/750/plakaty/mario-kart-8-deluxe-i50037.jpg",
-            "rating system": 0,
-            "platforms": ["Wii U", "Nintendo Switch"],
-            "reviews": []
-        },
-        {
-            "id": 34,
-            "name": "Need for Speed Payback",
-            "description": "Need for Speed Payback is a racing game set in an open world environment of Fortune Valley; a fictional version of Las Vegas, Nevada. It is focused on action driving and has three playable characters (each with different sets of skills) working together to pull off action movie-like sequences. In contrast with the previous game, it also features a 24-hour day-night cycle. Unlike the 2015 Need for Speed reboot, Payback includes an offline single-player mode.",
-            "genre": "Racing Game",
-            "image": "https://www.gamezawy.com/wp-content/uploads/2021/05/Need-for-Speed-Payback-1.jpg",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "PS4", "Xbox One"],
-            "reviews": []
-        },
-        {
-            "id": 35,
-            "name": "Cruis'n USA",
-            "description": "Like in most racing games, players race down one-way courses consisting of streets vaguely based on real-life locations. While racing, they do their best to avoid various road hazards such as oncoming traffic and construction. Players chose between seven different cars, with either an automatic or manual transmission. The environments include Golden Gate Park, in San Francisco, to Washington DC.",
-            "genre": "Indie Game",
-            "image": "https://webgames.host/uploads/2017/08/cruisin-usa.jpg",
-            "rating system": 0,
-            "platforms": ["Arcade", "Nintendo 64"],
-            "reviews": []
-        },
-        {
-            "id": 36,
-            "name": "Stray",
-            "description": "Stray is a third-person adventure game. The player controls a stray cat, who traverses by leaping across platforms and climbing up obstacles, and they can open new paths by interacting with the environment, such as climbing in buckets, overturning paint cans, operating a vending machine, and clawing at objects. They must solve puzzles to progress the narrative, often involving moving obstacles. The game also presents several optional activities for the player, such as sleeping, meowing, and nuzzling up to non-player characters, all of which often elicit a response. Some of the game's levels have open world elements, allowing the player to roam at their freedom.",
-            "genre": "Indie Game",
-            "image": "https://assets-prd.ignimgs.com/2022/06/04/stray-button-fin-1654302178065.jpg",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "PS4", "PS5"],
-            "reviews": []
-        },
-        {
-            "id": 37,
-            "name": "Stardew Valley",
-            "description": "Stardew Valley is open-ended, allowing players to take on activities such as growing crops, raising livestock, fishing, cooking, mining and foraging, and socializing with the townspeople, including the ability to marry and have children. It also allows up to four players to play online together.",
-            "genre": "Indie Game",
-            "image": "https://store-images.s-microsoft.com/image/apps.44413.65985311967005000.4f51b5e9-febf-4990-8951-33ba59b634c9.924253ef-36b2-4cc0-8bb1-9a97c88d4828",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "macOS", "Linux", "PS4", "Xbox One", "Nintendo Switch", "PS Vita", "iOS", "Android"],
-            "reviews": []
-        },
-        {
-            "id": 38,
-            "name": "Cuphead",
-            "description": "The game follows the titular Cuphead who, in a deal with the Devil after losing a game at the Devil's casino, is quested to repossess the souls of runaway debtors as payment for Cuphead's loss. In the game, up to two players control Cuphead and/or his brother Mugman to fight through several levels and boss fights; the game does not have a rigid narrative structure. As the game progresses, the protagonist acquires more power and abilities, eventually threatening the Devil himself. Players, however, can only equip a limited number of these abilities at a given time.",
-            "genre": "Indie Game",
-            "image": "https://images.g2a.com/323x433/1x1x0/cuphead-steam-pc-key-global/59ce809e5bafe3761b7402e2",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "Xbox One", "macOS", "Nintendo Switch", "PS4"],
-            "reviews": []
-        },
-        {
-            "id": 39,
-            "name": "Binding of Isaac Rebirth",
-            "description": "Similar to the original Binding of Isaac, the plot is based on the biblical story of the same name and was inspired by McMillen's religious upbringing. The player controls the eponymous Isaac, a young boy whose mother, convinced that she is doing God's work, strips him of everything and locks him in his room. When Isaac's mother is about to sacrifice him, he escapes to the basement and fights through random, roguelike dungeons. The player defeats monsters, using Isaac's tears as projectiles, and collects items which modify his appearance, attributes, and abilities, potentially creating powerful combinations.",
-            "genre": "Indie Game",
-            "image": "https://cdn-products.eneba.com/resized-products/nD_Mjv9XdXl1pCPbd9Bifx8d5CWTMkKn8pKG1-14Ezw_350x200_2x-0.jpeg",
-            "rating system": 0,
-            "platforms": ["Microsoft Windows", "Mac OS X", "Linux"],
-            "reviews": []
-        },
-        {
-            "id": 40,
-            "name": "RimWorld",
-            "description": "Rimworld has a small variety of starting scenarios to choose from, although the core narrative is the same. The player characters (referred to as pawns in game documentation) are stranded on a procedurally generated planet located in the frontiers of known space. The characters have a randomly generated set of positive or negative traits which affect how they can contribute to or endanger the colony, the decisions they make, and how their existence affects the other characters. As time goes on, more characters will join the colony. Characters can be rescued after crash-landing on the player map, they can wander in, or they can be captured after a raid.",
-            "genre": "Indie Game",
-            "image": "https://cdn1.epicgames.com/7051eadbb8c2435caf32a9bc0dc17936/offer/EGS_RimWorld_LudeonStudios_S2-1200x1600-925e05c88fe8312deeb656e296adac64.jpg",
-            "rating system": 0,
-            "platforms": ["Linux", "macOS", "Microsoft Windows", "PS4", "Xbox One"],
-            "reviews": []
-        },
-        {
-            "id": 41,
-            "name": "Clash of Clans",
-            "description": "The game is set in a fantasy-themed persistent world where the player is a chief of a village. Clash of Clans tasks players to build their own village using the resources gained from attacking other player's villages with troops; earning rewards, buying them with medals or by producing them at their own village. The main resources are gold, elixir and dark elixir. Players can conjoin to create clans, groups of up to fifty people, who can then participate in Clan Wars together, donate and receive troops, and chat with each other.",
-            "genre": "Mobile Game",
-            "image": "https://m.media-amazon.com/images/M/MV5BZTZlMWQxMDMtMmIyYi00YTk5LWExNjktOTU2NDA1Zjc2OGI0XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
-            "rating system": 0,
-            "platforms": ["iOS", "Android"],
-            "reviews": []
-        },
-        {
-            "id": 42,
-            "name": "Candy Crush",
-            "description": "In the game, players complete levels by swapping colored pieces of candy on a game board to make a match of three or more of the same color, eliminating those candies from the board and replacing them with new ones, which could potentially create further matches. Matches of four or more candies create unique candies that act as power-ups with larger board-clearing abilities. Boards have various goals that must be completed within a fixed number of moves or a limited amount of time, such as a certain score or collecting a specific number of a type of candy.",
-            "genre": "Mobile Game",
-            "image": "https://store-images.s-microsoft.com/image/apps.54354.13510798882606697.7a42c472-75d7-487e-9538-ebb5ce1657e6.372723d8-dd1a-450a-9fed-d420e7705e4e",
-            "rating system": 0,
-            "platforms": ["iOS", "Android", "Fire OS", "Windows Phone", "Microsoft Windows"],
-            "reviews": []
-        },
-        {
-            "id": 43,
-            "name": "Clash Royale",
-            "description": "Clash Royale is a tower rush video game which pits players in games featuring two or four players (1v1 or 2v2) in which the objective is to destroy the most opposing towers, with the destruction of the King's Tower being an instantaneous win. After three minutes, if both of the players/teams have an equal number of crowns or none at all the match continues into a 2-minute overtime period and the player who destroys an opposing tower wins instantaneously. ",
-            "genre": "Mobile Game",
-            "image": "https://m.media-amazon.com/images/M/MV5BYTg4OGFmZjgtNjY3MS00MjJiLWJkMDItM2JjNTcxYjY4MzI1XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_FMjpg_UX1000_.jpg",
-            "rating system": 0,
-            "platforms": ["iOS", "iPadOS", "Android"],
-            "reviews": []
-        },
-        {
-            "id": 44,
-            "name": "Wild Rift",
-            "description": "As in League of Legends, players control a character (champion) with unique abilities and battle against a team of players or AI-controlled units, with the goal of destroying the opposing team's Nexus. Each League of Legends: Wild Rift match is discrete, with all champions starting off relatively weak but increasing in strength by accumulating items and experience over the course of the game. The champions are influenced by a variety of genres, including high fantasy, steampunk, and Lovecraftian horror.",
-            "genre": "Mobile Game",
-            "image": "https://assets-prd.ignimgs.com/2022/06/14/lol-wild-rift-button-2-1655174382426.jpg",
-            "rating system": 0,
-            "platforms": ["Android", "iOS", "iPadOS"],
-            "reviews": []
-        },
-        {
-            "id": 45,
-            "name": "Pokemon GO",
-            "description": "Pokemon GO uses mobile devices with GPS to locate, capture, train, and battle virtual creatures, called Pokémon, which appear as if they are in the player's real-world location.",
-            "genre": "Mobile Game",
-            "image": "https://logowik.com/content/uploads/images/645_pokemon_go.jpg",
-            "rating system": 0,
-            "platforms": ["iOS", "iPadOS", "Android"],
-            "reviews": []
-        }
-    ]
+{
+  "games": [
+    {
+      "id": 1,
+      "name": "League of Legends",
+      "description": "In the game, two teams of five players battle in player-versus-player combat. Each team occupying and defending their half of the map. Each of the ten players controls a character, known as a champion, with unique abilities and differing styles of play. During a match, champions become more powerful by collecting experience points, earning gold, and purchasing items to defeat the opposing team",
+      "genre": "MOBA",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjM2NmU3YmEtZDI1OC00NTQ5LWJmOGMtYmZmNGUyMWRlODBmXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_FMjpg_UX1000_.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "OS X"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 2,
+      "name": "Dota 2",
+      "description": "Dota 2 is played in matches between two teams of five players, with each team occupying and defending their own separate base on the map. Each of the ten players independently controls a powerful character known as a hero that all have unique abilities and differing styles of play. During a match players collect experience points and items for their heroes to successfully defeat the opposing team's heroes in player versus player combat. A team wins by being the first to destroy the other team's Ancient, a large structure located within their base.",
+      "genre": "MOBA",
+      "image": "https://i.gadgets360cdn.com/products/large/7295201-1000x1333-1644822437.jpeg",
+      "rating system": 0,
+      "platforms": [
+        "Windows",
+        "Linus",
+        "OS X"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "name": "Smite",
+      "description": "In Smite, players control a god, goddess or other mythological figure and take part in team-based combat, using their abilities and tactics against other player-controlled gods and non-player-controlled minions.",
+      "genre": "MOBA",
+      "image": "https://image.api.playstation.com/cdn/UP0334/CUSA02328_00/icacOvay7oqWXCVT3Z5yHlmBRrgqSGgzCS9ZKKoYvbq5eDadEMEpfjWJKoPYxEWI.png",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "Xbox One",
+        "PS4",
+        "Nintendo Switch",
+        "Amazon Luna"
+      ],
+      "screenshots": "",
+      "reviews": [
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Heroes of Newerth",
+      "description": "Heroes of Newerth pits two teams of players against each other: the Legion and the Hellbourne. Both teams are based at opposite corners of the map in their respective bases. Bases consist of buildings, barracks, towers, a hero spawning pool, and a central structure. The goal of the game is to either destroy the central structure, the World Tree (Legion) or Sacrificial Shrine (Hellbourne), of the opposite base or force the other team to concede. Players achieve this by selecting heroes with unique skills to combat the other team.",
+      "genre": "MOBA",
+      "image": "https://www.aroged.com/wp-content/uploads/2022/06/MOBA-Heroes-of-Newerth-servers-will-be-shut-down-today.jpeg",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "name": "Vainglory",
+      "description": "The two opposing teams of three or five players fight to destroy the enemy by controlling the path between the bases, which is lined by turrets and guarded by AI-controlled enemy creatures called minions. Off the path, players battle for control points that provide resources.",
+      "genre": "MOBA",
+      "image": "https://www.superevilmegacorp.com/wp-content/uploads/2019/02/Vainglory_Art.png",
+      "rating system": 0,
+      "platforms": [
+        "IOS",
+        "Android, Microsoft Windows",
+        "ChromeOS",
+        "macOS"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "name": "CounterStrike",
+      "description": "Set in various locations around the globe, players assume the roles of counter-terrorist forces and terrorist militants opposing them. During each round of gameplay, the two teams are tasked with defeating the other by the means of either achieving the map's objectives or eliminating all of the enemy combatants. Each player may customize their arsenal of weapons and accessories at the beginning of every match, with currency being earned after the end of each round.",
+      "genre": "FPS",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FvLmR4mFfsws%2Fmaxresdefault.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "OS X",
+        "Linux",
+        "Xbox One"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 7,
+      "name": "Overwatch",
+      "description": "Described as a hero shooter, Overwatch assigns players into two teams of six, with each player selecting from a large roster of characters, known as heroes, with unique abilities. Teams work to complete map-specific objectives within a limited period of time.",
+      "genre": "FPS",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.playbuzz.com%2Fimage%2Fupload%2Far_1.5%2Cc_pad%2Cf_jpg%2Cb_auto%2Fcdn%2F5371b1e4-cc0b-4eea-930a-8e269b736775%2F72325bb8-2e85-4aaa-8690-75c58a2f6719.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "PS4",
+        "Xbox One",
+        "Nintendo Switch"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 8,
+      "name": "Halo",
+      "description": "Primarily taking place in the 26th century, the franchise centers on conflict between humanity and a variety of alien species. The artifacts of a long-disappeared race, the Forerunners, play a key role; the eponymous Halo Array are immense, habitable and ring-shaped superweapons that were created by the Forerunners to destroy the parasitic Flood, but which the alien Covenant mistake for religious artifacts of transcendence.",
+      "genre": "FPS",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.nextlevelgaming.ca%2Fwp-content%2Fuploads%2F2018%2F03%2Fhalo-5-wallpaper-1920x1080-viewwallpaper-wallpaperwallpaper-halo-5-guardians-01titelhalo-5-guardiansnummer01normal1.jpg%3Ffit%3D1920%252C1080%26ssl%3D1&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Xbox",
+        "Microsoft Windows",
+        "Xbox 360",
+        "Windows Phone",
+        "iOS",
+        "Xbox One",
+        "Arcade",
+        "Xbox Series X/S"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 9,
+      "name": "Star Wars BattleFront",
+      "description": "A series of first- and third-person shooter video games based on the Star Wars films. Players take the role of soldiers in either of two opposing armies in different time periods of the Star Wars universe.",
+      "genre": "FPS",
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi0.wp.com%2Fwww.heyuguys.com%2Fimages%2F2015%2F04%2FBattlefront.jpg%3Fresize%3D4785%252C2553&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "PS2",
+        "PS Portable",
+        "PS4",
+        "Nintendo DS",
+        "Mobile Phone",
+        "Xbox",
+        "Xbox One"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 10,
+      "name": "Call of Duty",
+      "description": "As a first-person shooter, Call of Duty places the player in control of an infantry soldier who makes use of various authentic World War II firearms in combat. Each mission features a series of objectives that are marked on the heads-up display's compass; the player must complete all objectives to advance to the next mission.",
+      "genre": "FPS",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwalldiskpaper.com%2Fwp-content%2Fuploads%2F2014%2F12%2FCall-Of-Duty-Wallpaper-Iphone-.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "Mac OS X",
+        "N-Gage",
+        "PS3",
+        "Xbox 360"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 11,
+      "name": "Apex Legends",
+      "description": "In Battle Royale, up to 20 three-person squads or 30 two-person duos land on an island and search for weapons and supplies before attempting to defeat all other players in combat. The available play area on the island shrinks over time, forcing players to keep moving or else find themselves outside the play area which can be fatal. The final team alive wins the round. In Arenas, players form into three-player squads and fight against another squad in a 3v3 team deathmatch over a series of rounds to determine the winner of the match. Teams win when their team has at least 3 points and is 2 points ahead.",
+      "genre": "Battle Royal Game",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-K9t77R-3XXA%2FXLMOzIGCKCI%2FAAAAAAAABso%2FTavpV-d_sfwFRqT8OtVFCAr95wXghiFdACLcBGAs%2Fs1600%2Fapex%252Blegends%252Bpc.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "PS4",
+        "Xbox One",
+        "Nintendo Switch",
+        "PS5",
+        "Xbox Series X/S",
+        "Android",
+        "iOS"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 12,
+      "name": "Fall Guys",
+      "description": "The game involves up to 60 players who control jellybean-like creatures and compete against each other in a series of randomly selected mini-games, such as obstacle courses or tag. Players are eliminated as the rounds progress until, eventually, the last remaining player is crowned the winner.",
+      "genre": "Battle Royal Game",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mercurynews.com%2Fwp-content%2Fuploads%2F2020%2F08%2FFall-Guys-Key-Art_Thumb-1.jpg%3Fw%3D1860&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "PS4",
+        "Nintendo Switch",
+        "PS5",
+        "Xbox One",
+        "Xbox Series X/S",
+        "Android",
+        "iOS"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 13,
+      "name": "Fornite",
+      "description": "A player-versus-player game for up to 100 players, allowing one to play alone, in a duo, or in a squad (usually consisting of three or four players). Weaponless players airdrop from a Battle Bus that crosses the game's map. When they land, they must scavenge for weapons, items, resources, and even vehicles while trying to stay alive and to attack and eliminate other players. Over the course of a round, the safe area of the map shrinks down in size due to an incoming toxic storm; players outside that threshold take damage and can be eliminated if they fail to quickly evacuate. This forces remaining players into tighter spaces and encourages player encounters. The last player, duo, or squad remaining is the winner.",
+      "genre": "Battle Royal Game",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Feveripedia-storage.s3-accelerate.amazonaws.com%2FProfilePics%2Ffortnite__73392.jpeg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "macOS",
+        "PS4",
+        "PS5",
+        "Xbox One",
+        "Xbox Series X/S",
+        "iOS",
+        "Nintendo Switch",
+        "Android"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 14,
+      "name": "PlayerUnknown's Battlegrounds",
+      "description": "A player versus player shooter game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive. Players can choose to enter the match solo, duo, or with a small team of up to four people. The last person or team alive wins the match.",
+      "genre": "Battle Royal Game",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAATXAJy4nPoQci-6e56QnGP_jn-0LgI_w8vBkTzSatjG%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "Android",
+        "iOS",
+        "Xbox One",
+        "PS4",
+        "Stadia",
+        "Xbox Series X/S",
+        "PS5"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 15,
+      "name": "Call of Duty Warzone",
+      "description": "The Battle Royale mode is similar to other titles in the genre where players compete in a continuously shrinking map to be the last player remaining. Players parachute onto a large game map, where they encounter other players. As the game progresses and players are eliminated, the playable area shrinks, forcing the remaining players into tighter spaces. In Warzone, the non-playable areas become contaminated with a yellow gas that depletes health and eventually kills the player if they do not return to the safe playable area.",
+      "genre": "Battle Royal Game",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn1.dotesports.com%2Fwp-content%2Fuploads%2F2021%2F06%2F14121316%2Fcodwz25.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "PS4",
+        "Xbox One",
+        "PS5",
+        "Xbox Series X/S"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 16,
+      "name": "Mortal Kombat",
+      "description": "The original three games and their updates, Mortal Kombat (1992), Mortal Kombat II (1993), Mortal Kombat 3 (1995), Ultimate Mortal Kombat 3 (1995), and Mortal Kombat Trilogy (1996), were 2D fighting games. The arcade cabinet versions of the first two used a joystick and five buttons: high punch, low punch, high kick, low kick, and block; Mortal Kombat 3 and its updates added a sixth run button. Characters in the early Mortal Kombat games play virtually identically to one another, with the only major differences being their special moves.",
+      "genre": "Fighting Games",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic3.gamerantimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2019%2F11%2FMortal-Kombat-Ninjas.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Android, iOS",
+        "Microsoft Windows",
+        "Nintendo DS",
+        "Nintendo 64",
+        "Nintendo Switch",
+        "PS",
+        "PS2",
+        "PS3",
+        "PS4",
+        "PS5",
+        "Sega Genesis",
+        "Xbox",
+        "Xbox 360",
+        "Xbox One"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 17,
+      "name": "Street Fighter",
+      "description": "Street Fighter, designed by Takashi Nishiyama and Hiroshi Matsumoto, debuted in arcades in 1987. The player controls martial artist Ryu to compete in a worldwide martial arts tournament spanning five countries and 10 opponents. A second player can control Ryu's friendly American rival, Ken Masters. The player can perform three punch and kick attacks, each varying in speed and strength, and three special attacks: the Hadōken, Shōryūken, and Tatsumaki Senpūkyaku, performed by executing special joystick and button combinations.",
+      "genre": "Fighting Games",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.sohaibxtreme.net%2Fwp-content%2Fuploads%2F2020%2F02%2FStreet-Fighter-V-Champion-Edition-CODEX-PC-Direct-Download-Crack-.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Gameboy",
+        "Microsoft Windows",
+        "Nintendo Switch",
+        "Nintendo 3DS",
+        "PS",
+        "PS2",
+        "PS3",
+        "PS4",
+        "PS5",
+        "PS Portable",
+        "Dreamcast",
+        "iOS"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 18,
+      "name": "Super Smash Bros.",
+      "description": "In the Super Smash Bros. series differs from many fighting games. Instead of winning by depleting an opponent's life bar, players seek to launch their opponents off the stage and out of bounds. Characters have a damage total which rises as they take damage, represented by a percentage value that measures up to 999%. As a character's percentage rises, the character can be knocked progressively farther by an opponent's attacks.",
+      "genre": "Fighting Games",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wccftech.com%2Fwp-content%2Fuploads%2F2018%2F12%2Fsmash_bros_ultimate_roster_art.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Nintendo 64",
+        "iQue Player",
+        "GameCube",
+        "Wii",
+        "Nintendo 3DS",
+        "Wii U",
+        "Nintendo Switch"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 19,
+      "name": "Killer Instinct (2013)",
+      "description": "The gameplay in Killer Instinct retains its traditional combo-based mechanics. The basic elements of combos are Openers, special attacks that start combos; Auto-Doubles, button presses following special attacks that create automatic hit sequences; Linkers, required to join several auto-doubles together; Enders, a sequence which finalizes the combo with increased damage; and Manuals, attacks chains entered outside of the traditional combo structure.",
+      "genre": "Fighting Games",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-TRBLwKLhpk4%2FXhrj4eqKiOI%2FAAAAAAAAXyM%2Fa042LD_MKtwlP6MuJ1O2Rqx93pbcNDfvQCLcBGAsYHQ%2Fw1200-h630-p-k-no-nu%2FKiller%252Binstinct%252Bwww.pcgamefreetop.net%252B%2525281%252529.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Xbox One",
+        "Microsoft Windows",
+        "Xbox Cloud Gaming"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 20,
+      "name": "Marvel vs. Capcom",
+      "description": "The gameplay borrows heavily from Capcom's previous Marvel-licensed fighting games X-Men: Children of the Atom and Marvel Super Heroes; however, instead of focusing on single combat, the games incorporated tag team battles. Players form teams of two or three characters and, controlling one fighter at a time, attempt to damage and knock out their opponents. Players can switch out their characters during the match, allowing team members to replenish their health and prolong their ability to fight.",
+      "genre": "Fighting Games",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fc%2F1%2Fa%2F494409-marvel-vs-capcom-wallpaper-1920x1080-windows-xp.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Arcade",
+        "Dreamcast",
+        "iOS",
+        "Microsoft Windows",
+        "PS",
+        "PS2",
+        "PS3",
+        "PS4",
+        "PS Vita",
+        "Sega Saturn",
+        "Xbox",
+        "Xbox 360",
+        "Xbox One"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 21,
+      "name": "World of Warcraft",
+      "description": "The game allows players to create a character avatar and explore an open game world in third- or first-person view, exploring the landscape, fighting various monsters, completing quests, and interacting with non-player characters (NPCs) or other players. The game encourages players to work together to complete quests, enter dungeons and engage in player versus player (PvP) combat, however the game can also be played solo without interacting with others. The game primarily focuses on character progression, in which players earn experience points to level up their character to make them more powerful and buy and sell items using in-game currency to acquire better equipment, among other game systems.",
+      "genre": "MMORPG",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvamers-com.exactdn.com%2Fwp-content%2Fuploads%2F2018%2F07%2FVamers-Gaming-World-of-Warcraft-subscription-now-gives-access-to-all-previous-expansions-1.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "Mac OS"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 22,
+      "name": "Guild Wars 2",
+      "description": "Guild Wars 2 is the fourth major entry in the Guild Wars series, and claims to be unique in the MMO genre by featuring a storyline that is responsive to player actions, something which is common in single player role-playing games but rarely seen in multiplayer ones. A dynamic event system replaces traditional questing, utilising the ripple effect to allow players to approach quests in different ways as part of a persistent world. Also of note is the combat system, which aims to be more dynamic than its predecessor by promoting synergy between professions and using the environment as a weapon, as well as reducing the complexity of the Magic-style skill system of the original game.",
+      "genre": "MMORPG",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2Fq1siUez3Qp6Hv19RtcBjkHNZCqE%3D%2F0x15%3A480x285%2F1600x900%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_image%2Fimage%2F1950143%2Fguild-wars-2.0.jpeg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 23,
+      "name": "Elder Scrolls",
+      "description": "Within the series' fictional universe, each game takes place on the continent of Tamriel. The setting combines pre-medieval real-world elements, such as a powerful Roman-like Empire, with high fantasy medieval themes, including limited technology, widespread magic use, and the existence of many mythological creatures. The continent is split into a number of provinces inhabited by humans and popular humanoid fantasy races such as elves, orcs and anthropomorphic animals. A common theme in the lore is that a chosen hero rises to defeat an incoming threat, usually a malevolent being or an antagonistic army.",
+      "genre": "MMORPG",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2019%2F09%2F730088-elder-scrolls-fantasy-action-rpg-mmo-online-artwork-fighting-skyrim.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Android",
+        "iOS",
+        "macOS",
+        "Microsoft Windows",
+        "Nintendo Switch",
+        "PS3",
+        "PS4",
+        "PS5",
+        "Xbox",
+        "Xbox 360",
+        "Xbox One",
+        "Xbox Series X/S"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 24,
+      "name": "Final Fantasy XIV",
+      "description": "Set in the fantasy realm of Eorzea, players took control of a customized avatar as they explore the land and were caught up in both an invasion by the hostile Garlean Empire and the threat of the primals, the deities of the land's beastmen tribes. Eventually, they were embroiled in a plot by a Garlean Legatus to destroy the primals by bringing one of the planet's moons down on Eorzea.",
+      "genre": "MMORPG",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2019%2F10%2F347278-final-fantasy-xiv-realm-reborn-game-adventure-online-34.jpg&f=1&nofb=1",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 25,
+      "name": "Star Wars: The Old Republic",
+      "description": "This story takes place in the Star Wars universe shortly after the establishment of a tenuous peace between the re-emergent Sith Empire and the Galactic Republic. The game features eight different classes. Each of the eight classes has a three act storyline that progresses as the character levels up. Players join either the Republic or the Sith, but players may possess a morality at any point along the light/dark spectrum. Different classes favor different styles of gameplay, and the game features extensive customization options, fully voiced dialogue, companion characters, and dialogue options similar to BioWare's other role-playing games.",
+      "genre": "MMORPG",
+      "image": "https://m.media-amazon.com/images/M/MV5BZWY5OGY4YjAtNTNjYi00NTRhLTliOTAtN2U2NDY2ZDJkNTI1XkEyXkFqcGdeQXVyODgxNTA1Ng@@._V1_.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 26,
+      "name": "NHL 22",
+      "description": "The game is developed under license from the National Hockey League (NHL), which enables the use of the league's team names, stadiums and colors in the game, and the National Hockey League Players' Association (NHLPA), which enables the use of the League's player names and likenesses.",
+      "genre": "Sports Game",
+      "image": "https://image.api.playstation.com/vulcan/img/rnd/202109/2314/GESTRx77UAXJAnm3iGjuB4UQ.png",
+      "rating system": 0,
+      "platforms": [
+        "PS4",
+        "PS5",
+        "Xbox One",
+        "Xbox Series X/S"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 27,
+      "name": "Madden NFL 22",
+      "description": "An American football video game series developed by EA Tiburon for EA Sports. It is named after Pro Football Hall of Fame coach and commentator John Madden and sold more than 130 million copies by 2018. It is also the only officially licensed National Football League (NFL) video game series, and it has influenced many players and coaches of the physical sport. Among the series' features are detailed playbooks and player statistics and voice commentary in the style of a real NFL television broadcast.",
+      "genre": "Sports Game",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDI2ZDVmYTAtYjhkYi00NTZhLWJlOWEtOTkyNjhlMzhkZDBlXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "PS4",
+        "PS5",
+        "Xbox One",
+        "Xbox Series X/S",
+        "Stadia"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 28,
+      "name": "FIFA",
+      "description": "FIFA 22 introduces HyperMotion Technology, which uses motion capture data collected from 22 real-life players playing a complete, high-intensity football match in motion capture suits. The data collected from player movements, tackles, aerial duels and on-ball actions is used to power FIFA 22 gameplay.",
+      "genre": "Sports Game",
+      "image": "https://mms.businesswire.com/media/20210711005018/en/890552/4/EAS_FIFA22_GEN5.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "Nintendo Switch",
+        "PS4",
+        "PS5",
+        "Stadia",
+        "Xbox One",
+        "Xbox Series X/S"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 29,
+      "name": "Mario Tennis Aces",
+      "description": "The gameplay of Mario Tennis Aces consists of playing matches of tennis with various characters from the Super Mario series. Players can pick from Mario, Luigi, Wario, Peach, Waluigi, Daisy, Rosalina, Yoshi, Donkey Kong, Bowser, Toad, Toadette, Chain Chomp, Bowser Jr., Boo, and Spike. New characters are added by participating in monthly tournaments, or are added to the roster the following month if the player does not participate.",
+      "genre": "Sports Game",
+      "image": "https://static-cdn.jtvnw.net/ttv-boxart/Mario%20Tennis%20Aces.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Nintendo Switch"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 30,
+      "name": "Mario Strikers",
+      "description": "Mario Strikers: Battle League is a five versus five soccer video game. The game shies away from realism, in favor of chaotic, over-the-top gameplay.[1] The game maintains the main premise of the sport, where players maneuver players around a field in efforts to pass and shoot a ball into a goal to score points, with the team with the most points at the end of a game winning the game.[2] However, the game takes many liberties with the sport.[3] Aggressive tackles and attacks are completely allowed, though they give the opposing player items to use at their disposal.",
+      "genre": "Sports Game",
+      "image": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_auto/c_scale,w_400/v1/ncom/en_US/games/switch/m/mario-strikers-battle-league-switch/description-image",
+      "rating system": 0,
+      "platforms": [
+        "Nintendo Switch"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 31,
+      "name": "Forza Horizon 5",
+      "description": "Forza Horizon 5 is a racing video game set in an open world environment based in a fictional representation of Mexico. The game has the largest map in the entire Forza Horizon series, being 50% larger than its predecessor, Forza Horizon 4, while also having the highest point in the Horizon series. The map was described by creative director Mike Brown as one of the most diverse Forza Horizon maps the team has built. The map contains an active caldera volcano, jungles and beaches, ancient Mayan temples, and towns and cities such as Guanajuato. Players can explore the open world freely, though they can also compete in multiplayer races and complete the campaign mode.",
+      "genre": "Racing Game",
+      "image": "https://whiteaways.lk/wp-content/uploads/2021/11/apps.23625.13806078025361171.9723cf5e-1e29-4d9d-ad0a-cc37a95bb75d.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "Xbox One",
+        "Xbox Series X/S"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 32,
+      "name": "Gran Turismo 7",
+      "description": "Gran Turismo 7 features the return of the single player campaign, GT Simulation Mode. Other returning features is the return of traditional racing tracks and vehicles, Special Events, Championships, Driving School, Tuning Parts Shop, Used Cars dealership, and GT Auto while still retaining the new GT Sport Mode, Brand Central, and Discover that were introduced in Gran Turismo Sport. The player needs to progress through tasks from the GT Cafe to unlock features like multiplayer, and all tracks and cars.",
+      "genre": "Racing Game",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202202/2806/QDzid2jNv4e44kgumGXDCscF.png",
+      "rating system": 0,
+      "platforms": [
+        "PS4",
+        "PS5"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 33,
+      "name": "Mario Kart 8 Deluxe",
+      "description": "In the Mario Kart series, players compete in go-kart races, controlling one of a selection of characters, mainly from the Mario franchise. Up to twelve characters can compete in each race (the exact number varies between games). Gameplay is enhanced by power-up items obtained by driving into item boxes laid out on the course. These power-ups include Mushrooms to give players a speed boost, Shells to be thrown at opponents, Banana peels, and Fake Item Boxes as hazards. The game chooses an item based on the player's current position in the race.",
+      "genre": "Racing Game",
+      "image": "https://static.posters.cz/image/750/plakaty/mario-kart-8-deluxe-i50037.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Wii U",
+        "Nintendo Switch"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 34,
+      "name": "Need for Speed Payback",
+      "description": "Need for Speed Payback is a racing game set in an open world environment of Fortune Valley; a fictional version of Las Vegas, Nevada. It is focused on action driving and has three playable characters (each with different sets of skills) working together to pull off action movie-like sequences. In contrast with the previous game, it also features a 24-hour day-night cycle. Unlike the 2015 Need for Speed reboot, Payback includes an offline single-player mode.",
+      "genre": "Racing Game",
+      "image": "https://www.gamezawy.com/wp-content/uploads/2021/05/Need-for-Speed-Payback-1.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "PS4",
+        "Xbox One"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 35,
+      "name": "Cruis'n USA",
+      "description": "Like in most racing games, players race down one-way courses consisting of streets vaguely based on real-life locations. While racing, they do their best to avoid various road hazards such as oncoming traffic and construction. Players chose between seven different cars, with either an automatic or manual transmission. The environments include Golden Gate Park, in San Francisco, to Washington DC.",
+      "genre": "Indie Game",
+      "image": "https://webgames.host/uploads/2017/08/cruisin-usa.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Arcade",
+        "Nintendo 64"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 36,
+      "name": "Stray",
+      "description": "Stray is a third-person adventure game. The player controls a stray cat, who traverses by leaping across platforms and climbing up obstacles, and they can open new paths by interacting with the environment, such as climbing in buckets, overturning paint cans, operating a vending machine, and clawing at objects. They must solve puzzles to progress the narrative, often involving moving obstacles. The game also presents several optional activities for the player, such as sleeping, meowing, and nuzzling up to non-player characters, all of which often elicit a response. Some of the game's levels have open world elements, allowing the player to roam at their freedom.",
+      "genre": "Indie Game",
+      "image": "https://assets-prd.ignimgs.com/2022/06/04/stray-button-fin-1654302178065.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "PS4",
+        "PS5"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 37,
+      "name": "Stardew Valley",
+      "description": "Stardew Valley is open-ended, allowing players to take on activities such as growing crops, raising livestock, fishing, cooking, mining and foraging, and socializing with the townspeople, including the ability to marry and have children. It also allows up to four players to play online together.",
+      "genre": "Indie Game",
+      "image": "https://store-images.s-microsoft.com/image/apps.44413.65985311967005000.4f51b5e9-febf-4990-8951-33ba59b634c9.924253ef-36b2-4cc0-8bb1-9a97c88d4828",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "macOS",
+        "Linux",
+        "PS4",
+        "Xbox One",
+        "Nintendo Switch",
+        "PS Vita",
+        "iOS",
+        "Android"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 38,
+      "name": "Cuphead",
+      "description": "The game follows the titular Cuphead who, in a deal with the Devil after losing a game at the Devil's casino, is quested to repossess the souls of runaway debtors as payment for Cuphead's loss. In the game, up to two players control Cuphead and/or his brother Mugman to fight through several levels and boss fights; the game does not have a rigid narrative structure. As the game progresses, the protagonist acquires more power and abilities, eventually threatening the Devil himself. Players, however, can only equip a limited number of these abilities at a given time.",
+      "genre": "Indie Game",
+      "image": "https://images.g2a.com/323x433/1x1x0/cuphead-steam-pc-key-global/59ce809e5bafe3761b7402e2",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "Xbox One",
+        "macOS",
+        "Nintendo Switch",
+        "PS4"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 39,
+      "name": "Binding of Isaac Rebirth",
+      "description": "Similar to the original Binding of Isaac, the plot is based on the biblical story of the same name and was inspired by McMillen's religious upbringing. The player controls the eponymous Isaac, a young boy whose mother, convinced that she is doing God's work, strips him of everything and locks him in his room. When Isaac's mother is about to sacrifice him, he escapes to the basement and fights through random, roguelike dungeons. The player defeats monsters, using Isaac's tears as projectiles, and collects items which modify his appearance, attributes, and abilities, potentially creating powerful combinations.",
+      "genre": "Indie Game",
+      "image": "https://cdn-products.eneba.com/resized-products/nD_Mjv9XdXl1pCPbd9Bifx8d5CWTMkKn8pKG1-14Ezw_350x200_2x-0.jpeg",
+      "rating system": 0,
+      "platforms": [
+        "Microsoft Windows",
+        "Mac OS X",
+        "Linux"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 40,
+      "name": "RimWorld",
+      "description": "Rimworld has a small variety of starting scenarios to choose from, although the core narrative is the same. The player characters (referred to as pawns in game documentation) are stranded on a procedurally generated planet located in the frontiers of known space. The characters have a randomly generated set of positive or negative traits which affect how they can contribute to or endanger the colony, the decisions they make, and how their existence affects the other characters. As time goes on, more characters will join the colony. Characters can be rescued after crash-landing on the player map, they can wander in, or they can be captured after a raid.",
+      "genre": "Indie Game",
+      "image": "https://cdn1.epicgames.com/7051eadbb8c2435caf32a9bc0dc17936/offer/EGS_RimWorld_LudeonStudios_S2-1200x1600-925e05c88fe8312deeb656e296adac64.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Microsoft Windows",
+        "PS4",
+        "Xbox One"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 41,
+      "name": "Clash of Clans",
+      "description": "The game is set in a fantasy-themed persistent world where the player is a chief of a village. Clash of Clans tasks players to build their own village using the resources gained from attacking other player's villages with troops; earning rewards, buying them with medals or by producing them at their own village. The main resources are gold, elixir and dark elixir. Players can conjoin to create clans, groups of up to fifty people, who can then participate in Clan Wars together, donate and receive troops, and chat with each other.",
+      "genre": "Mobile Game",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTZlMWQxMDMtMmIyYi00YTk5LWExNjktOTU2NDA1Zjc2OGI0XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg",
+      "rating system": 0,
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 42,
+      "name": "Candy Crush",
+      "description": "In the game, players complete levels by swapping colored pieces of candy on a game board to make a match of three or more of the same color, eliminating those candies from the board and replacing them with new ones, which could potentially create further matches. Matches of four or more candies create unique candies that act as power-ups with larger board-clearing abilities. Boards have various goals that must be completed within a fixed number of moves or a limited amount of time, such as a certain score or collecting a specific number of a type of candy.",
+      "genre": "Mobile Game",
+      "image": "https://store-images.s-microsoft.com/image/apps.54354.13510798882606697.7a42c472-75d7-487e-9538-ebb5ce1657e6.372723d8-dd1a-450a-9fed-d420e7705e4e",
+      "rating system": 0,
+      "platforms": [
+        "iOS",
+        "Android",
+        "Fire OS",
+        "Windows Phone",
+        "Microsoft Windows"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 43,
+      "name": "Clash Royale",
+      "description": "Clash Royale is a tower rush video game which pits players in games featuring two or four players (1v1 or 2v2) in which the objective is to destroy the most opposing towers, with the destruction of the King's Tower being an instantaneous win. After three minutes, if both of the players/teams have an equal number of crowns or none at all the match continues into a 2-minute overtime period and the player who destroys an opposing tower wins instantaneously. ",
+      "genre": "Mobile Game",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTg4OGFmZjgtNjY3MS00MjJiLWJkMDItM2JjNTcxYjY4MzI1XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_FMjpg_UX1000_.jpg",
+      "rating system": 0,
+      "platforms": [
+        "iOS",
+        "iPadOS",
+        "Android"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 44,
+      "name": "Wild Rift",
+      "description": "As in League of Legends, players control a character (champion) with unique abilities and battle against a team of players or AI-controlled units, with the goal of destroying the opposing team's Nexus. Each League of Legends: Wild Rift match is discrete, with all champions starting off relatively weak but increasing in strength by accumulating items and experience over the course of the game. The champions are influenced by a variety of genres, including high fantasy, steampunk, and Lovecraftian horror.",
+      "genre": "Mobile Game",
+      "image": "https://assets-prd.ignimgs.com/2022/06/14/lol-wild-rift-button-2-1655174382426.jpg",
+      "rating system": 0,
+      "platforms": [
+        "Android",
+        "iOS",
+        "iPadOS"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "id": 45,
+      "name": "Pokemon GO",
+      "description": "Pokemon GO uses mobile devices with GPS to locate, capture, train, and battle virtual creatures, called Pokémon, which appear as if they are in the player's real-world location.",
+      "genre": "Mobile Game",
+      "image": "https://logowik.com/content/uploads/images/645_pokemon_go.jpg",
+      "rating system": 0,
+      "platforms": [
+        "iOS",
+        "iPadOS",
+        "Android"
+      ],
+      "screenshots": "",
+      "reviews": []
+    },
+    {
+      "reviews": [
+        "aaaaaa"
+      ],
+      "id": 46
+    },
+    {
+      "reviews": [
+        "asda"
+      ],
+      "id": 47
+    }
+  ]
 }
