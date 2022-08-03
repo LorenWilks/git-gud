@@ -31,7 +31,7 @@ function App() {
   }
 
   return (
-    <div>
+    
       <div className={isDarkMode ? "dark-mode" : "light-mode"}>
         <label className="switch">
           <input
@@ -51,6 +51,7 @@ function App() {
           <Route exact path="/about">
             <AboutUs />
           </Route>
+          <AddGame addingGame={handleAddGame}/>
           <Route exact path="/">
             <GamesPage
               games={games}
