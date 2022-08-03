@@ -11,7 +11,9 @@
         "Microsoft Windows",
         "OS X"
       ],
-      "reviews": []
+      "reviews": [
+        "I can't wait to get home and play."
+      ]
     },
     {
       "id": 2,
@@ -44,6 +46,7 @@
       ],
       "screenshots": "",
       "reviews": [
+        "This game is GREAT!"
       ]
     },
     {
@@ -89,7 +92,9 @@
         "Xbox One"
       ],
       "screenshots": "",
-      "reviews": []
+      "reviews": [
+        "This game has many different versions,  and is played competitively around the world!"
+      ]
     },
     {
       "id": 7,
@@ -759,18 +764,6 @@
       ],
       "screenshots": "",
       "reviews": []
-    },
-    {
-      "reviews": [
-        "aaaaaa"
-      ],
-      "id": 46
-    },
-    {
-      "reviews": [
-        "asda"
-      ],
-      "id": 47
     }
   ]
 }
