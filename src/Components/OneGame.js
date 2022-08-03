@@ -88,6 +88,7 @@ function OneGame({ game }) {
             </a>
             </Card.Content> */}
         </Card>
+
     )
 }
 
