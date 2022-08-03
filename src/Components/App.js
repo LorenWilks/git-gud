@@ -13,6 +13,7 @@ function App() {
   const [games, setGames] = useState([])
   const [searchInput, setSearchInput] = useState("")
   const [isDarkMode, setIsDarkMode] = useState(false)
+  const [selectedGenres, setSelectedGenres] = useState([])
 
 
   function toggleMode() {
@@ -31,37 +32,39 @@ function App() {
 
   return (
     <div>
-      <label className="switch">
-        <input
-          type="checkbox"
-          onClick={toggleMode} />
-        <span className="slider round"> </span>
-      </label>
-      <ThemeContext.Provider value={{ isDarkMode: isDarkMode }}>
-        <Header />
-      </ThemeContext.Provider>
-      <NavBar
-        searchInput={searchInput}
-        setSearchInput={setSearchInput} />
-      <Switch>
-        <Route exact path="/about">
-          <AboutUs />
-        
-        </Route>
-        <Route exact path="/">
-        <AddGame addingGame={handleAddGame} />  
-          <GamesPage
-            games={games}
-            searchInput={searchInput} />
-        </Route>
-        {/* <Route path="/login">
+      <div className={isDarkMode ? "dark-mode" : "light-mode"}>
+        <label className="switch">
+          <input
+            type="checkbox"
+            onClick={toggleMode} />
+          <span className="slider round"> </span>
+        </label>
+        <ThemeContext.Provider value={{ isDarkMode: isDarkMode }}>
+          <Header />
+        </ThemeContext.Provider>
+        <NavBar
+          searchInput={searchInput}
+          setSearchInput={setSearchInput}
+          selectedGenres={selectedGenres}
+          setSelectedGenres={setSelectedGenres} />
+        <Switch>
+          <Route exact path="/about">
+            <AboutUs />
+          </Route>
+          <Route exact path="/">
+            <GamesPage
+              games={games}
+              searchInput={searchInput}
+              selectedGenres={selectedGenres} />
+          </Route>
+          {/* <Route path="/login">
             <Login />
           </Route> */}
-      </Switch>
-      
-    </div>
-    
-  )
+        </Switch>
+
+      </div>
+
+      )
 }
 
-export default App;
+      export default App;

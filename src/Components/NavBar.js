@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 import { Menu, Input, Dropdown } from 'semantic-ui-react'
 
 
-
-
-function NavBar({ searchInput, setSearchInput }) {
+function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput }) {
 
   const [activeItem, setActiveItem] = useState("Home")
 
@@ -14,11 +12,16 @@ function NavBar({ searchInput, setSearchInput }) {
     setSearchInput(event.target.value)
   }
 
+  function handleSelectedChange (event, data) {
+    setSelectedGenres(data.value)
+    console.log(data)
+  }
+
   const options = [
     { key: 'MOBA', text: 'MOBA', value: 'MOBA' },
     { key: 'FPS', text: 'FPS', value: 'FPS' },
     { key: 'Battle Royale Game', text: 'Battle Royale Game', value: 'Battle Royale Game' },
-    { key: 'Fighting Games', text: 'Fighting Games', value: 'Fighting Games' },
+    { key: 'Fighting Game', text: 'Fighting Game', value: 'Fighting Game' },
     { key: 'MMORPG', text: 'MMORPG', value: 'MMORPG' },
     { key: 'Sports Game', text: 'Sports Game', value: 'Sports Game' },
     { key: 'Racing Game', text: 'Racing Game', value: 'Racing Game' },
@@ -48,7 +51,11 @@ function NavBar({ searchInput, setSearchInput }) {
           onChange={handleSearchChange} />
       </Menu.Item>
       <Menu.Item>
-        <Dropdown placeholder='Genres' fluid multiple selection options={options} />
+        <Dropdown 
+          placeholder='Genres' 
+          fluid multiple selection options={options}
+          onChange={(e, data) => handleSelectedChange(e, data)}
+          value={selectedGenres} />
       </Menu.Item>
       
     </Menu>
