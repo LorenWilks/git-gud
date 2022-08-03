@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Menu, Input, Dropdown } from 'semantic-ui-react'
 
 
+
+
 function NavBar({ searchInput, setSearchInput }) {
 
   const [activeItem, setActiveItem] = useState("Home")
@@ -48,6 +50,7 @@ function NavBar({ searchInput, setSearchInput }) {
       <Menu.Item>
         <Dropdown placeholder='Genres' fluid multiple selection options={options} />
       </Menu.Item>
+      
     </Menu>
   )
 }
