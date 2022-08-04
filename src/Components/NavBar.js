@@ -14,7 +14,6 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
 
   function handleSelectedChange (event, data) {
     setSelectedGenres(data.value)
-    console.log(data)
   }
 
   const options = [

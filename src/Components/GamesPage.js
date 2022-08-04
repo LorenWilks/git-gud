@@ -2,8 +2,8 @@ import React from "react";
 import { Card } from "semantic-ui-react";
 import OneGame from "./OneGame"
 
-
 function GamesPage({ selectedGenres, games, searchInput }) {
+
 
     const gameCards = games
         .filter(game => {
