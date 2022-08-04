@@ -102,7 +102,7 @@ function AddGame({
     return (
         isMenuClicked ?
             <div>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={name.length < 1 ? handleSubmit : null}>
                     <input type="text"
                         name="name"
                         placeholder="Game name"
@@ -131,8 +131,8 @@ function AddGame({
                     <input
                         type="text"
                         name="screenshot"
-                        placeholder="screenshot"
-                        value={image}
+                        placeholder="Screenshot"
+                        value={screenshot}
                         onChange={(e) => setScreenshot(e.target.value)}
                     />
                     <Dropdown
