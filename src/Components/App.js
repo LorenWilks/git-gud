@@ -67,9 +67,6 @@ function App() {
             searchInput={searchInput}
             selectedGenres={selectedGenres} />
         </Route>
-        {/* <Route path="/login">
-            <Login />
-          </Route> */}
       </Switch>
 
     </div>

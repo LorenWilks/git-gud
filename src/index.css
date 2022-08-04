@@ -99,3 +99,24 @@ input:checked + .slider:before {
 .switch-checkbox {
   padding: 10px;
 }
+
+.game-body {
+  padding: 20px;
+  padding-bottom: 200px;
+}
+
+.white-text {
+  color: #fff
+}
+
+.border-line {
+  border-style: solid;
+  border-image-width: medium;
+
+}
+
+.error-message {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 60px;
+}

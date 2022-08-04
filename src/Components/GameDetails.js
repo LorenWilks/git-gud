@@ -11,44 +11,49 @@ function GameDetails({ games }) {
     return (
         <div>
             {game !== undefined ?
-                (<Item.Group>
-                    <Item>
-                        <Item.Image size='large' src={game.image} />
+                (
+                <div className="game-body">
+                    <Item.Group>
+                    <Item >
+                        <Item.Image className="border-line" size='large' src={game.image} />
 
                         <Item.Content>
-                            <Item.Header as='a'>{game.name}</Item.Header>
+                            <h2><strong>{game.name}</strong></h2>
+                            <span><b>Genre:</b> {game.genre}</span>
                             <br></br>
-                            <span>Genre: {game.genre}</span>
+                            <span><b>Description:</b> {game.description}</span>
                             <br></br>
-                            <Item.Meta>Description: {game.description}</Item.Meta>
-                            <Item.Description>
-                                In-game Screenshots:
+                            <span><b>In-game Screenshots:</b></span>
                                 <Image size="large" src={game.screenshots} />
-                            </Item.Description>
-                            <Item.Extra>
+                           <div>
                                 <ul>
-                                    Platforms:
+                                    <b>Platforms:</b>
                                     {game.platforms.map((platform, index) => {
                                         return (
                                             <li key={index}>{platform}</li>
                                         )
                                     })}
                                 </ul>
-                            </Item.Extra>
-                            <Item.Extra>
-                            <ul>
-                                   Reviews:
+                            </div>
+                           <div>
+                                <ul>
+                                   <b>Reviews:</b>
                                     {game.reviews.map((review, index) => {
                                         return (
                                             <li key={index}>{review}</li>
                                         )
                                     })}
                                 </ul>
-                            </Item.Extra>
+                            </div>
                         </Item.Content>
                     </Item>
-                </Item.Group>)
-                : <h1>404 Game NOT found!</h1>}
+                </Item.Group>
+                </div>)
+                : 
+                <div className="error-message">
+                    <h1>404 Game NOT found!</h1>
+                    <img src="https://c.tenor.com/eDchk3srtycAAAAj/piffle-error.gif" alt="Error gif"/>
+                </div>}
         </div>
     )
 }
