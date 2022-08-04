@@ -767,18 +767,17 @@
       "reviews": []
     },
     {
+      "id": 46,
       "name": "Lost Ark",
       "description": "Lost Ark is primarily focused on PvE and exploration (questing, achievement/collectible hunting, crafting, etc.), but features PvP elements as well.[12] Players start by customizing their character which they can then level up by completing the storyline.[13] Reaching level 50 unlocks access to tiered endgame dungeons and raids.",
       "reviews": [],
       "image": "https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587514212_1078.jpg",
       "genre": "MMORPG",
       "platforms": [
-        [
+        
           "Amazon Luna",
           "Dreamcast"
         ]
-      ],
-      "id": 46
     }
   ]
 }
