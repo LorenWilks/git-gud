@@ -1,11 +1,19 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, Input, Dropdown } from 'semantic-ui-react'
+import AddGame from "./AddGame";
 
 
-function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput }) {
+function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput, games, setGames }) {
 
   const [activeItem, setActiveItem] = useState("Home")
+  const [selectedPlatforms, setSelectedPlatforms] = useState([])
+  const [selectedAddGenres, setSelectedAddGenres] = useState("")
+  const [isMenuClicked, setIsMenuClicked] = useState(false)
+
+  function handleMenu(){
+    setIsMenuClicked(!isMenuClicked)
+  }
 
   function handleSearchChange(event) {
     event.preventDefault();
@@ -14,6 +22,10 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
 
   function handleSelectedChange (event, data) {
     setSelectedGenres(data.value)
+  }
+  
+  function handleAddGame(newGame) {
+    setGames([...games, newGame])
   }
 
   const options = [
@@ -56,8 +68,16 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
           onChange={(e, data) => handleSelectedChange(e, data)}
           value={selectedGenres} />
       </Menu.Item>
-      
+      <AddGame
+        addingGame={handleAddGame}
+        selectedPlatforms={selectedPlatforms}
+        selectedAddGenres={selectedAddGenres}
+        setSelectedPlatforms={setSelectedPlatforms}
+        setSelectedAddGenres={setSelectedAddGenres}
+        handleMenu={handleMenu} 
+        isMenuClicked={isMenuClicked}/>
     </Menu>
+      
   )
 }
 
