@@ -6,9 +6,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 10rem;
+  height: 25rem;
   border-radius: 30%;
-  opacity: 80%;
 }
 
 .dark-mode {

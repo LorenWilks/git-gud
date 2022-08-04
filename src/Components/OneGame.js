@@ -1,22 +1,22 @@
 // import { clear } from "@testing-library/user-event/dist/clear";
 import React, { useState } from "react";
 import { Card, Image } from 'semantic-ui-react'
+import { useHistory } from "react-router-dom"
 
 function OneGame({ game }) {
     const {
-        // screenshots, 
         reviews,
-        // genre, 
-        // image, 
         id
     } = game
 
-    const [isCardDescriptionClicked, setIsCardDescriptionClicked] = useState(false)
+    const [isCardMetaClicked, setIsCardMetaClicked] = useState(false)
     const [userReview, setUserReview] = useState("")
     const [listOfReviews, setListOfReviews] = useState(reviews)
 
-    function handleCardDescriptionClick(e) {
-        setIsCardDescriptionClicked(!isCardDescriptionClicked)
+    let history = useHistory();
+
+    function handleClickGameCard(gameId) {
+        history.push(`/game/${gameId}`);
     }
 
     const addReview = (e) => {
@@ -40,17 +40,17 @@ function OneGame({ game }) {
     }
     return (
         <Card round="true">
-            <Image src={game.image} wrapped ui={false} />
-            <Card.Content>
+            <Image src={game.image} wrapped ui={false} onClick={() => handleClickGameCard(game.id)} />
+            <Card.Content onClick={() => setIsCardMetaClicked(!isCardMetaClicked)}>
                 <Card.Header>{game.name}</Card.Header>
-                <Card.Meta>
+                <Card.Meta >
                     <span className="genre-font-color">
                         Genre: {game.genre}
                     </span>
                 </Card.Meta>
-                {isCardDescriptionClicked ?
-                    <Card.Description >
-                        Reviews:
+                {isCardMetaClicked ? (
+                    <div>
+                    Reviews:
                         <br></br>
                         <ul>
                             {listOfReviews.map((review, index) => {
@@ -61,25 +61,19 @@ function OneGame({ game }) {
                         </ul>
                         <br></br>
                         <form
-                            onSubmit={addReview}
-                        >
+                            onSubmit={addReview}>
+
                             <label>Add Your Review!</label>
                             <input type="text"
                                 name="reviews"
                                 placeholder="Add Review"
                                 value={userReview}
-                                onChange={(e) => setUserReview(e.target.value)}
-                            />
+                                onChange={(e) => setUserReview(e.target.value)} />
                             <input type="submit" />
                         </form>
                         <br></br>
-                        <div onClick={handleCardDescriptionClick}>
-                            Platforms: {game.platforms.join(", ")}
-                        </div>
-                    </Card.Description>
-                    : <Card.Description onClick={handleCardDescriptionClick}>
-                        Description: {game.description}
-                    </Card.Description>}
+                </div>
+                ) : null}
             </Card.Content>
             {/* <Card.Content extra>
             <a>

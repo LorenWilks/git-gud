@@ -1,26 +1,29 @@
 import { useState } from "react"
 import { Dropdown } from "semantic-ui-react"
 
-
-
-function AddGame ({addingGame}){
+function AddGame ({ 
+    addingGame, 
+    selectedPlatforms, 
+    selectedAddGenres, 
+    setSelectedAddGenres, 
+    setSelectedPlatforms}) {
     
     //console.table(games.genre)
-
-  
-   
    const [name, setName] = useState("")
    const [description, setDescription] = useState("")
    const [review, setReview] = useState("")
    const [image, setImage] = useState("")
-   const [genre, setGenre] = useState("")
-   const [platforms, setPlatforms] = useState("")
 
+   function handleSelectedPlatforms (event, data) {
+    setSelectedPlatforms(data.value)
+   }
 
+   function handleSelectedAddGenres (event, data) {
+    setSelectedAddGenres(data.value)
+   }
 
-
-    
    function handleSubmit (e) {
+
     e.preventDefault()
     fetch("http://localhost:3001/games", {
         method: "POST",
@@ -28,16 +31,16 @@ function AddGame ({addingGame}){
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            name: name,
-            description: description,
-            review: review,
-            image: image,
-            genre: genre,
-            platforms: platforms
+            "name": name,
+            "description": description,
+            "reviews": review.length === 0 ? [] : [review],
+            "image": image,
+            "genre": selectedAddGenres,
+            "platforms": [selectedPlatforms]
         }),
     })
         .then((r) => r.json())
-        .then((newGame) => addingGame(newGame))
+        .then((newGame) => {addingGame(newGame)})
    }
 
    const genres = [
@@ -51,7 +54,6 @@ function AddGame ({addingGame}){
     { key: 'Indie Game', text: 'Indie Game', value: 'Indie Game' },
     { key: 'Mobile Game', text: 'Mobile Game', value: 'Mobile Game' },
     ]
-
 
     const platform = [
         {key: 'Andriod', text:'Android', value:'Android'},
@@ -93,11 +95,9 @@ function AddGame ({addingGame}){
 
     ]
 
-
     return(
         <div>
-            
-            <form >
+            <form onSubmit={handleSubmit}>
                 <input type="text"
                 name="name"
                 placeholder="Game name"
@@ -123,17 +123,23 @@ function AddGame ({addingGame}){
                 value={image}
                 onChange={(e) => setImage(e.target.value)}
                 />
-                <Dropdown placeholder='Genres' fluid multiple selection options={genres} 
-                onChange={(e) => setGenre(e.target.value)} />
-                <Dropdown placeholder='Platforms' fluid multiple selection options={platform} 
-                onChange={(e) => setPlatforms(e.target.value)}/>
-                <button type="submit" onSubmit={handleSubmit}>Add Game</button>
-
+                <Dropdown 
+                    placeholder='Genres' 
+                    fluid selection options={genres} 
+                    onChange={(e, data) => handleSelectedAddGenres(e, data)}
+                    value={selectedAddGenres} />
+                <Dropdown 
+                    placeholder='Platforms' 
+                    fluid multiple selection options={platform} 
+                    onChange={(e, data) => handleSelectedPlatforms(e, data)} 
+                    value={selectedPlatforms} />
+                <button 
+                    type="submit" >
+                        Add Game
+                </button>
             </form>
         </div>
     )
 }
-
-
 
 export default AddGame

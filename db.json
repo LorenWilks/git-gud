@@ -11,9 +11,8 @@
         "Microsoft Windows",
         "OS X"
       ],
-      "reviews": [
-        "I can't wait to get home and play."
-      ]
+      "screenshots": "",
+      "reviews": []
     },
     {
       "id": 2,
@@ -27,7 +26,7 @@
         "Linus",
         "OS X"
       ],
-      "screenshots": "",
+      "screenshots": "https://media.rawg.io/media/screenshots/55e/55e2c2ff16229eef87cfd8728ca537ac.jpg",
       "reviews": []
     },
     {
@@ -46,7 +45,9 @@
       ],
       "screenshots": "",
       "reviews": [
-        "This game is GREAT!"
+        "This game is GREAT!",
+        "Is it though?",
+        "It does"
       ]
     },
     {
@@ -173,7 +174,7 @@
       "id": 11,
       "name": "Apex Legends",
       "description": "In Battle Royale, up to 20 three-person squads or 30 two-person duos land on an island and search for weapons and supplies before attempting to defeat all other players in combat. The available play area on the island shrinks over time, forcing players to keep moving or else find themselves outside the play area which can be fatal. The final team alive wins the round. In Arenas, players form into three-player squads and fight against another squad in a 3v3 team deathmatch over a series of rounds to determine the winner of the match. Teams win when their team has at least 3 points and is 2 points ahead.",
-      "genre": "Battle Royal Game",
+      "genre": "Battle Royale Game",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-K9t77R-3XXA%2FXLMOzIGCKCI%2FAAAAAAAABso%2FTavpV-d_sfwFRqT8OtVFCAr95wXghiFdACLcBGAs%2Fs1600%2Fapex%252Blegends%252Bpc.jpg&f=1&nofb=1",
       "rating system": 0,
       "platforms": [
@@ -193,7 +194,7 @@
       "id": 12,
       "name": "Fall Guys",
       "description": "The game involves up to 60 players who control jellybean-like creatures and compete against each other in a series of randomly selected mini-games, such as obstacle courses or tag. Players are eliminated as the rounds progress until, eventually, the last remaining player is crowned the winner.",
-      "genre": "Battle Royal Game",
+      "genre": "Battle Royale Game",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mercurynews.com%2Fwp-content%2Fuploads%2F2020%2F08%2FFall-Guys-Key-Art_Thumb-1.jpg%3Fw%3D1860&f=1&nofb=1",
       "rating system": 0,
       "platforms": [
@@ -213,7 +214,7 @@
       "id": 13,
       "name": "Fornite",
       "description": "A player-versus-player game for up to 100 players, allowing one to play alone, in a duo, or in a squad (usually consisting of three or four players). Weaponless players airdrop from a Battle Bus that crosses the game's map. When they land, they must scavenge for weapons, items, resources, and even vehicles while trying to stay alive and to attack and eliminate other players. Over the course of a round, the safe area of the map shrinks down in size due to an incoming toxic storm; players outside that threshold take damage and can be eliminated if they fail to quickly evacuate. This forces remaining players into tighter spaces and encourages player encounters. The last player, duo, or squad remaining is the winner.",
-      "genre": "Battle Royal Game",
+      "genre": "Battle Royale Game",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Feveripedia-storage.s3-accelerate.amazonaws.com%2FProfilePics%2Ffortnite__73392.jpeg&f=1&nofb=1",
       "rating system": 0,
       "platforms": [
@@ -234,7 +235,7 @@
       "id": 14,
       "name": "PlayerUnknown's Battlegrounds",
       "description": "A player versus player shooter game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive. Players can choose to enter the match solo, duo, or with a small team of up to four people. The last person or team alive wins the match.",
-      "genre": "Battle Royal Game",
+      "genre": "Battle Royale Game",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAATXAJy4nPoQci-6e56QnGP_jn-0LgI_w8vBkTzSatjG%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1",
       "rating system": 0,
       "platforms": [
@@ -254,7 +255,7 @@
       "id": 15,
       "name": "Call of Duty Warzone",
       "description": "The Battle Royale mode is similar to other titles in the genre where players compete in a continuously shrinking map to be the last player remaining. Players parachute onto a large game map, where they encounter other players. As the game progresses and players are eliminated, the playable area shrinks, forcing the remaining players into tighter spaces. In Warzone, the non-playable areas become contaminated with a yellow gas that depletes health and eventually kills the player if they do not return to the safe playable area.",
-      "genre": "Battle Royal Game",
+      "genre": "Battle Royale Game",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn1.dotesports.com%2Fwp-content%2Fuploads%2F2021%2F06%2F14121316%2Fcodwz25.jpg&f=1&nofb=1",
       "rating system": 0,
       "platforms": [
@@ -764,6 +765,20 @@
       ],
       "screenshots": "",
       "reviews": []
+    },
+    {
+      "name": "Lost Ark",
+      "description": "Lost Ark is primarily focused on PvE and exploration (questing, achievement/collectible hunting, crafting, etc.), but features PvP elements as well.[12] Players start by customizing their character which they can then level up by completing the storyline.[13] Reaching level 50 unlocks access to tiered endgame dungeons and raids.",
+      "reviews": [],
+      "image": "https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587514212_1078.jpg",
+      "genre": "MMORPG",
+      "platforms": [
+        [
+          "Amazon Luna",
+          "Dreamcast"
+        ]
+      ],
+      "id": 46
     }
   ]
 }

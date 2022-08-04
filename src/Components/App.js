@@ -4,6 +4,7 @@ import NavBar from "./NavBar"
 import AddGame from "./AddGame"
 import AboutUs from "./AboutUs"
 import Header from "./Header"
+import GameDetails from "./GameDetails"
 import { ThemeContext } from "../Context/ThemeContext"
 import { Route, Switch } from "react-router-dom";
 
@@ -14,7 +15,8 @@ function App() {
   const [searchInput, setSearchInput] = useState("")
   const [isDarkMode, setIsDarkMode] = useState(false)
   const [selectedGenres, setSelectedGenres] = useState([])
-
+  const [selectedPlatforms, setSelectedPlatforms] = useState([])
+  const [selectedAddGenres, setSelectedAddGenres] = useState("")
 
   function toggleMode() {
     setIsDarkMode(!isDarkMode)
@@ -31,41 +33,47 @@ function App() {
   }
 
   return (
-    
-      <div className={isDarkMode ? "dark-mode" : "light-mode"}>
-        <label className="switch">
-          <input
-            type="checkbox"
-            onClick={toggleMode} />
-          <span className="slider round"> </span>
-        </label>
-        <ThemeContext.Provider value={{ isDarkMode: isDarkMode }}>
-          <Header />
-        </ThemeContext.Provider>
-        <NavBar
-          searchInput={searchInput}
-          setSearchInput={setSearchInput}
-          selectedGenres={selectedGenres}
-          setSelectedGenres={setSelectedGenres} />
-        <Switch>
-          <Route exact path="/about">
-            <AboutUs />
-          </Route>
-          <AddGame addingGame={handleAddGame}/>
-          <Route exact path="/">
-            <GamesPage
-              games={games}
-              searchInput={searchInput}
-              selectedGenres={selectedGenres} />
-          </Route>
-          {/* <Route path="/login">
+    <div className={isDarkMode ? "dark-mode" : "light-mode"}>
+      <label className="switch">
+        <input
+          type="checkbox"
+          onClick={toggleMode} />
+        <span className="slider round"> </span>
+      </label>
+      <ThemeContext.Provider value={{ isDarkMode: isDarkMode }}>
+        <Header />
+      </ThemeContext.Provider>
+      <NavBar
+        searchInput={searchInput}
+        setSearchInput={setSearchInput}
+        selectedGenres={selectedGenres}
+        setSelectedGenres={setSelectedGenres} />
+      <AddGame
+        addingGame={handleAddGame}
+        selectedPlatforms={selectedPlatforms}
+        selectedAddGenres={selectedAddGenres}
+        setSelectedPlatforms={setSelectedPlatforms}
+        setSelectedAddGenres={setSelectedAddGenres} />
+      <Switch>
+        <Route exact path="/about">
+          <AboutUs />
+        </Route>
+        <Route path="/game/:id">
+          <GameDetails games={games} />
+        </Route>
+        <Route exact path="/">
+          <GamesPage
+            games={games}
+            searchInput={searchInput}
+            selectedGenres={selectedGenres} />
+        </Route>
+        {/* <Route path="/login">
             <Login />
           </Route> */}
-        </Switch>
+      </Switch>
 
-      </div>
-
-      )
+    </div>
+  )
 }
 
-      export default App;
+export default App;
