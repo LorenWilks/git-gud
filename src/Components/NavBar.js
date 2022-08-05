@@ -13,6 +13,10 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
   const [isMenuClicked, setIsMenuClicked] = useState(false)
   const { isDarkMode } = useContext(ThemeContext)
 
+  function hideSearchAndFilter () {
+    return activeItem === "About Us"
+  }
+
   function handleMenu(){
     setIsMenuClicked(!isMenuClicked)
   }
@@ -56,6 +60,8 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
         onClick={() => setActiveItem("About Us")}>
         <Link to="/about"> About Us </Link>
       </Menu.Item>
+      {!hideSearchAndFilter() ? 
+      (<>
       <Menu.Item>
         <Input
           name="search"
@@ -78,6 +84,8 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
         setSelectedAddGenres={setSelectedAddGenres}
         handleMenu={handleMenu} 
         isMenuClicked={isMenuClicked}/>
+      </>) : null}
+      
     </Menu>
       
   )

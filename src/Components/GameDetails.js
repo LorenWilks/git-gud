@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import Review from "./Review";
+import GitGUDDark from "../image/GitGUDDark.png"
+import GitGUDLight from "../image/GitGUDLight.png"
 import { useParams } from "react-router-dom"
 import { Image, Item } from 'semantic-ui-react'
+import { ThemeContext } from "../Context/ThemeContext";
 
 function GameDetails({ games }) {
+
+    const { isDarkMode } = useContext(ThemeContext)
 
     const params = useParams();
     const gameId = parseInt(params.id)
@@ -45,6 +50,14 @@ function GameDetails({ games }) {
                                 </Item.Content>
                             </Item>
                         </Item.Group>
+                        <div className="logo-bottom-right">
+                            <img
+                                className="logo-size"
+                                src={isDarkMode ? GitGUDDark : GitGUDLight}
+                                alt="Git Gud Logo (Light)"
+                                id="main-header" />
+                            {/* <button onClick={() => toggleIsDarkMode(!isDarkMode)}></button> */}
+                        </div>
                     </div>)
                 :
                 <div className="error-message">

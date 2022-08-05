@@ -27,7 +27,6 @@ function App() {
   }, [])
 
  
-
   return (
     <div className={isDarkMode ? "dark-mode" : "light-mode"}>
       <label className="switch">
@@ -65,7 +64,6 @@ function App() {
             selectedGenres={selectedGenres} />
         </Route>
       </Switch>
-
     </div>
   )
 }
