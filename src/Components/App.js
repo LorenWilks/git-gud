@@ -12,7 +12,7 @@ function App() {
 
   const [games, setGames] = useState([])
   const [searchInput, setSearchInput] = useState("")
-  const [isDarkMode, setIsDarkMode] = useState(false)
+  const [isDarkMode, setIsDarkMode] = useState(true)
   const [selectedGenres, setSelectedGenres] = useState([])
   
 
@@ -39,6 +39,7 @@ function App() {
       <ThemeContext.Provider value={{ isDarkMode: isDarkMode }}>
         <Header />
       </ThemeContext.Provider>
+      <ThemeContext.Provider value={{ isDarkMode: isDarkMode }}>
       <NavBar
         searchInput={searchInput}
         setSearchInput={setSearchInput}
@@ -47,12 +48,15 @@ function App() {
         games={games}
         setGames={setGames}
         />
+      </ThemeContext.Provider>
       <Switch>
         <Route exact path="/about">
           <AboutUs />
         </Route>
         <Route path="/game/:id">
+        <ThemeContext.Provider value={{ isDarkMode: isDarkMode }}>
           <GameDetails games={games} />
+        </ThemeContext.Provider>
         </Route>
         <Route exact path="/">
           <GamesPage

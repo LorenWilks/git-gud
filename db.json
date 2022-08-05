@@ -12,7 +12,9 @@
         "OS X"
       ],
       "screenshots": "",
-      "reviews": []
+      "reviews": [
+        "League is toxic as hell!"
+      ]
     },
     {
       "id": 2,
@@ -94,7 +96,9 @@
       ],
       "screenshots": "",
       "reviews": [
-        "This game has many different versions,  and is played competitively around the world!"
+        "This game has many different versions,  and is played competitively around the world!",
+        "FPS makes me so dizzy!",
+        "I love playing CSGO!"
       ]
     },
     {
@@ -271,8 +275,8 @@
     {
       "id": 16,
       "name": "Mortal Kombat",
-      "description": "The original three games and their updates, Mortal Kombat (1992), Mortal Kombat II (1993), Mortal Kombat 3 (1995), Ultimate Mortal Kombat 3 (1995), and Mortal Kombat Trilogy (1996), were 2D fighting games. The arcade cabinet versions of the first two used a joystick and five buttons: high punch, low punch, high kick, low kick, and block; Mortal Kombat 3 and its updates added a sixth run button. Characters in the early Mortal Kombat games play virtually identically to one another, with the only major differences being their special moves.",
-      "genre": "Fighting Games",
+      "description": "The original three games and their updates, Mortal Kombat (1992), Mortal Kombat II (1993), Mortal Kombat 3 (1995), Ultimate Mortal Kombat 3 (1995), and Mortal Kombat Trilogy (1996), were 2D Fighting Game. The arcade cabinet versions of the first two used a joystick and five buttons: high punch, low punch, high kick, low kick, and block; Mortal Kombat 3 and its updates added a sixth run button. Characters in the early Mortal Kombat games play virtually identically to one another, with the only major differences being their special moves.",
+      "genre": "Fighting Game",
       "image": "https://talenthouse-res.cloudinary.com/image/upload/c_limit,f_auto,fl_progressive,h_1280,w_1280/v1616427377/user-1111569/submissions/jgmjyrjagl8aflhoegf7.jpg",
       "rating system": 0,
       "platforms": [
@@ -298,7 +302,7 @@
       "id": 17,
       "name": "Street Fighter",
       "description": "Street Fighter, designed by Takashi Nishiyama and Hiroshi Matsumoto, debuted in arcades in 1987. The player controls martial artist Ryu to compete in a worldwide martial arts tournament spanning five countries and 10 opponents. A second player can control Ryu's friendly American rival, Ken Masters. The player can perform three punch and kick attacks, each varying in speed and strength, and three special attacks: the Hadōken, Shōryūken, and Tatsumaki Senpūkyaku, performed by executing special joystick and button combinations.",
-      "genre": "Fighting Games",
+      "genre": "Fighting Game",
       "image": "https://image.api.playstation.com/vulcan/img/cfn/11307MTvkumhOsLQiA_3g0ZbFhLnHOOWVw3qR4Rum7sKAh8I3THtbG0aa-P7dF7-miXzo1ceqN897MfxYZ7Qx-GaEZs8kq4X.png",
       "rating system": 0,
       "platforms": [
@@ -321,8 +325,8 @@
     {
       "id": 18,
       "name": "Super Smash Bros.",
-      "description": "In the Super Smash Bros. series differs from many fighting games. Instead of winning by depleting an opponent's life bar, players seek to launch their opponents off the stage and out of bounds. Characters have a damage total which rises as they take damage, represented by a percentage value that measures up to 999%. As a character's percentage rises, the character can be knocked progressively farther by an opponent's attacks.",
-      "genre": "Fighting Games",
+      "description": "In the Super Smash Bros. series differs from many Fighting Games. Instead of winning by depleting an opponent's life bar, players seek to launch their opponents off the stage and out of bounds. Characters have a damage total which rises as they take damage, represented by a percentage value that measures up to 999%. As a character's percentage rises, the character can be knocked progressively farther by an opponent's attacks.",
+      "genre": "Fighting Game",
       "image": "https://www.nintendo.com/sg/switch/aaab/img/product.png",
       "rating system": 0,
       "platforms": [
@@ -341,7 +345,7 @@
       "id": 19,
       "name": "Killer Instinct (2013)",
       "description": "The gameplay in Killer Instinct retains its traditional combo-based mechanics. The basic elements of combos are Openers, special attacks that start combos; Auto-Doubles, button presses following special attacks that create automatic hit sequences; Linkers, required to join several auto-doubles together; Enders, a sequence which finalizes the combo with increased damage; and Manuals, attacks chains entered outside of the traditional combo structure.",
-      "genre": "Fighting Games",
+      "genre": "Fighting Game",
       "image": "https://m.media-amazon.com/images/M/MV5BZWU4MDA1M2ItYThhOC00NWUzLWFjMWYtOTBmZDUzZGE1NjVkXkEyXkFqcGdeQXVyOTIzNDM2OTQ@._V1_.jpg",
       "rating system": 0,
       "platforms": [
@@ -355,8 +359,8 @@
     {
       "id": 20,
       "name": "Marvel vs. Capcom",
-      "description": "The gameplay borrows heavily from Capcom's previous Marvel-licensed fighting games X-Men: Children of the Atom and Marvel Super Heroes; however, instead of focusing on single combat, the games incorporated tag team battles. Players form teams of two or three characters and, controlling one fighter at a time, attempt to damage and knock out their opponents. Players can switch out their characters during the match, allowing team members to replenish their health and prolong their ability to fight.",
-      "genre": "Fighting Games",
+      "description": "The gameplay borrows heavily from Capcom's previous Marvel-licensed Fighting Game X-Men: Children of the Atom and Marvel Super Heroes; however, instead of focusing on single combat, the games incorporated tag team battles. Players form teams of two or three characters and, controlling one fighter at a time, attempt to damage and knock out their opponents. Players can switch out their characters during the match, allowing team members to replenish their health and prolong their ability to fight.",
+      "genre": "Fighting Game",
       "image": "https://image.api.playstation.com/cdn/UP0102/CUSA06400_00/2orMO7L3wlUUSzNsfzzdFtNdAwoMqazu.png",
       "rating system": 0,
       "platforms": [
@@ -774,10 +778,47 @@
       "image": "https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587514212_1078.jpg",
       "genre": "MMORPG",
       "platforms": [
-        
-          "Amazon Luna",
-          "Dreamcast"
-        ]
+        "Amazon Luna",
+        "Dreamcast"
+      ]
+    },
+    {
+      "name": "Titanfall",
+      "description": "In Titanfall, players control \"Pilots\" and their mech-style Titans, and fight in six-on-six matches set in the war-torn outer space colonies of the Frontier. The game is optimized for fast-paced, continual action, aided by wall-running abilities and populations of computer-controlled soldiers. Other titles in the series includes unique characters who are able to use special abilities.",
+      "reviews": [
+        "This game is intense!"
+      ],
+      "image": "https://cdn.europosters.eu/image/1300/posters/titanfall-cover-i16361.jpg",
+      "screenshots": "https://www.newgamenetwork.com/images/uploads/gallery/Titanfall/TitanfallE3_01.jpg",
+      "genre": "FPS",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Microsoft Windows",
+        "PS4",
+        "PS5",
+        "Xbox",
+        "Xbox 360",
+        "Xbox One"
+      ],
+      "id": 47
+    },
+    {
+      "name": "7 Days to Die ",
+      "description": "The game's events happen during aftermath of a nuclear Third World War that destroyed an extremely large part of the world, except for some areas such as the fictional county of Navezgane, Arizona. The player is a survivor of the war who must survive by finding shelter, food and water, as well as scavenging supplies to fend off the numerous zombies (hinted to be the consequence of nuclear fallout, a new strain of flu, or both) that populate Navezgane. Though there is no real objective except surviving at this moment, the developers promised a dynamic storyline in the Kickstarter and stretch goals. The video with more explanation has since been removed by the developer.",
+      "reviews": [
+        "This game is super scary!"
+      ],
+      "image": "https://store-images.s-microsoft.com/image/apps.28856.69802328231064156.03ff84cc-b6b1-4226-8e6c-545d183e5fbf.b6546b0b-9563-4129-b79e-15bb4282048a",
+      "screenshots": "https://pbs.twimg.com/media/EgRXcC6U8AE6yHn.jpg",
+      "genre": "MMORPG",
+      "platforms": [
+        "Mac OS X",
+        "Microsoft Windows",
+        "Xbox",
+        "Linux"
+      ],
+      "id": 48
     }
   ]
 }
