@@ -6,7 +6,7 @@
       "description": "In the game, two teams of five players battle in player-versus-player combat. Each team occupying and defending their half of the map. Each of the ten players controls a character, known as a champion, with unique abilities and differing styles of play. During a match, champions become more powerful by collecting experience points, earning gold, and purchasing items to defeat the opposing team",
       "genre": "MOBA",
       "image": "https://m.media-amazon.com/images/M/MV5BYjM2NmU3YmEtZDI1OC00NTQ5LWJmOGMtYmZmNGUyMWRlODBmXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_FMjpg_UX1000_.jpg",
-      "rating system": 0,
+      "rating system": 2.5,
       "platforms": [
         "Microsoft Windows",
         "OS X"
@@ -37,7 +37,7 @@
       "description": "In Smite, players control a god, goddess or other mythological figure and take part in team-based combat, using their abilities and tactics against other player-controlled gods and non-player-controlled minions.",
       "genre": "MOBA",
       "image": "https://image.api.playstation.com/cdn/UP0334/CUSA02328_00/icacOvay7oqWXCVT3Z5yHlmBRrgqSGgzCS9ZKKoYvbq5eDadEMEpfjWJKoPYxEWI.png",
-      "rating system": 0,
+      "rating system": 4,
       "platforms": [
         "Microsoft Windows",
         "Xbox One",
