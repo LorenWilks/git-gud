@@ -27,6 +27,7 @@ function App() {
   }, [])
 
  
+
   return (
     <div className={isDarkMode ? "dark-mode" : "light-mode"}>
       <label className="switch">
@@ -50,7 +51,9 @@ function App() {
       </ThemeContext.Provider>
       <Switch>
         <Route exact path="/about">
-          <AboutUs />
+          <ThemeContext.Provider value={{ isDarkMode: isDarkMode }}>
+          <AboutUs/>
+          </ThemeContext.Provider>
         </Route>
         <Route path="/game/:id">
         <ThemeContext.Provider value={{ isDarkMode: isDarkMode }}>
@@ -64,6 +67,7 @@ function App() {
             selectedGenres={selectedGenres} />
         </Route>
       </Switch>
+
     </div>
   )
 }

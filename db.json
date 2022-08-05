@@ -821,6 +821,26 @@
         "Linux"
       ],
       "id": 48
+    },
+    {
+      "name": "Legend of Zelda",
+      "description": "The Legend of Zelda, originally released in Japan as The Hyrule Fantasy: Zelda no Densetsu,[b][8][c] is a 1986 action-adventure game developed and published by Nintendo.[9] The first game of The Legend of Zelda series, it is set in the fantasy land of Hyrule and centers on an elf-like boy named Link, who aims to collect the eight fragments of the Triforce of Wisdom in order to rescue Princess Zelda from the antagonist Ganon.[10] During the course of the game, the player controls Link from a top-down perspective and navigates throughout the overworld and dungeons, collecting weapons, defeating enemies and uncovering secrets along the way.",
+      "reviews": [
+        "This game changed the way people think about gaming."
+      ],
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.myconfinedspace.com%2Fwp-content%2Fuploads%2F2017%2F03%2FLegend-of-zelda-wallpaper.jpg&f=1&nofb=1",
+      "screenshots": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cubed3.com%2Fmedia%2F2017%2FJune%2Fbotwmastertrials3.jpg&f=1&nofb=1",
+      "genre": "MMORPG",
+      "platforms": [
+        "Gameboy",
+        "Gamecube",
+        "Nintendo 3DS",
+        "Nintendo 64",
+        "Nintendo DS",
+        "Nintendo Switch",
+        "Wii"
+      ],
+      "id": 49
     }
   ]
 }
