@@ -24,8 +24,8 @@
       "image": "https://i.gadgets360cdn.com/products/large/7295201-1000x1333-1644822437.jpeg",
       "rating system": 0,
       "platforms": [
-        "Windows",
-        "Linus",
+        "Microsoft Windows",
+        "Linux",
         "OS X"
       ],
       "screenshots": "https://media.rawg.io/media/screenshots/55e/55e2c2ff16229eef87cfd8728ca537ac.jpg",
@@ -72,7 +72,8 @@
       "rating system": 0,
       "platforms": [
         "IOS",
-        "Android, Microsoft Windows",
+        "Android",
+        "Microsoft Windows",
         "ChromeOS",
         "macOS"
       ],

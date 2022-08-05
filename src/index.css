@@ -180,14 +180,6 @@ input:checked + .slider:before {
   width: 222px;
   height: 215px;
 }
-/* .logo-bottom-about {
-  position: absolute;
-  bottom: 135px;
-  right: 50px;
-  font-size: 18px;
-  width: 222px;
-  height: 215px;
-} */
 
 .logo-size {
   width: 100%;
