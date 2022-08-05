@@ -35,16 +35,19 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
   }
 
   const options = [
+    { key: 'Action', text: 'Action', value: 'Action' },
+    { key: 'Adventure', text: 'Adventure', value: 'Adventure' },
     { key: 'MOBA', text: 'MOBA', value: 'MOBA' },
     { key: 'FPS', text: 'FPS', value: 'FPS' },
     { key: 'Battle Royale Game', text: 'Battle Royale Game', value: 'Battle Royale Game' },
     { key: 'Fighting Game', text: 'Fighting Game', value: 'Fighting Game' },
     { key: 'MMORPG', text: 'MMORPG', value: 'MMORPG' },
+    { key: 'RPG', text: 'RPG', value: 'RPG' },
     { key: 'Sports Game', text: 'Sports Game', value: 'Sports Game' },
     { key: 'Racing Game', text: 'Racing Game', value: 'Racing Game' },
     { key: 'Indie Game', text: 'Indie Game', value: 'Indie Game' },
     { key: 'Mobile Game', text: 'Mobile Game', value: 'Mobile Game' },
-  ]
+]
 
   return (
     <Menu className="nav" inverted={!isDarkMode}>

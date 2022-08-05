@@ -62,11 +62,14 @@ function AddGame({
     }
 
     const genres = [
+        { key: 'Action', text: 'Action', value: 'Action' },
+        { key: 'Adventure', text: 'Adventure', value: 'Adventure' },
         { key: 'MOBA', text: 'MOBA', value: 'MOBA' },
         { key: 'FPS', text: 'FPS', value: 'FPS' },
         { key: 'Battle Royale Game', text: 'Battle Royale Game', value: 'Battle Royale Game' },
-        { key: 'Fighting Games', text: 'Fighting Games', value: 'Fighting Games' },
+        { key: 'Fighting Game', text: 'Fighting Game', value: 'Fighting Game' },
         { key: 'MMORPG', text: 'MMORPG', value: 'MMORPG' },
+        { key: 'RPG', text: 'RPG', value: 'RPG' },
         { key: 'Sports Game', text: 'Sports Game', value: 'Sports Game' },
         { key: 'Racing Game', text: 'Racing Game', value: 'Racing Game' },
         { key: 'Indie Game', text: 'Indie Game', value: 'Indie Game' },
@@ -74,6 +77,8 @@ function AddGame({
     ]
 
     const platform = [
+        { key: 'Super Nintendo', text: 'Super Nintendo', value: 'Super Nintendo' },
+        { key: 'Nintendo', text: 'Nintendo', value: 'Nintendo' },
         { key: 'Andriod', text: 'Android', value: 'Android' },
         { key: 'Arcade', text: 'Arcade', value: 'Arcade' },
         { key: 'Gameboy', text: 'Gameboy', value: 'Gameboy' },
