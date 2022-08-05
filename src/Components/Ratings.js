@@ -25,9 +25,7 @@ function Ratings({ game }) {
     }
 
     return (
-
         <div>
-
             <ReactStars
                 count={5}
                 onChange={handleChangeRate}
@@ -39,9 +37,7 @@ function Ratings({ game }) {
                 fullIcon={<i className="fa fa-star"></i>}
                 activeColor="#ffd700"
             />
-
         </div>
-
     )
 }
 

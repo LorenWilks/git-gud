@@ -86,7 +86,7 @@
       "description": "Set in various locations around the globe, players assume the roles of counter-terrorist forces and terrorist militants opposing them. During each round of gameplay, the two teams are tasked with defeating the other by the means of either achieving the map's objectives or eliminating all of the enemy combatants. Each player may customize their arsenal of weapons and accessories at the beginning of every match, with currency being earned after the end of each round.",
       "genre": "FPS",
       "image": "https://www.gamesarena.uk/wp-content/uploads/2021/05/9231cf33ba4a94d91af5b5071a671346.png",
-      "rating system": 0,
+      "rating system": 5,
       "platforms": [
         "Microsoft Windows",
         "OS X",
@@ -822,6 +822,6 @@
         "Linux"
       ],
       "id": 48
-    } 
+    }
   ]
 }
