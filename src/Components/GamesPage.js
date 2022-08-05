@@ -7,6 +7,7 @@ function GamesPage({ selectedGenres, games, searchInput }) {
 
     const gameCards = games
         .filter(game => {
+            console.log(game)
             const lowerCaseGameName = game.name.toLowerCase()
             const lowerCaseInput = searchInput.toLowerCase()
 

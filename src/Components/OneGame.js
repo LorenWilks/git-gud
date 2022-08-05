@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Review from "./Review";
 import { Card } from 'semantic-ui-react'
 import { useHistory } from "react-router-dom"
+import Ratings from "./Ratings";
+
 
 function OneGame({ game }) {
 
@@ -29,6 +31,7 @@ function OneGame({ game }) {
                         Genre: <b>{game.genre}</b>
                     </span>
                 </Card.Meta>
+                <Ratings game={game} />   
                 {isCardMetaClicked ? (
                     <Review 
                         game={game} />
