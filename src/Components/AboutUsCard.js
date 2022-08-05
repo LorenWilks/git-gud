@@ -1,9 +1,11 @@
 import React from 'react'
-import { Card, Image } from 'semantic-ui-react'
+import { Card } from 'semantic-ui-react'
 
 const AboutUsCard = ({ imageURL, description, name, feat }) => (
-        <Card className={name}>
-            <Image className="DevImage"src={imageURL} wrapped ui={false} />
+        <Card >
+            <div className="card-img-container">
+            <img className="DevImage"src={imageURL} wrapped ui={false} alt="Developer"/>
+            </div>
             <Card.Content className="Content">
                 <Card.Header>{name}</Card.Header>
                 <Card.Meta>
@@ -13,6 +15,7 @@ const AboutUsCard = ({ imageURL, description, name, feat }) => (
                     {description}
                 </Card.Description>
             </Card.Content>
+            
         </Card>
 )
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Review from "./Review";
-import { Card, Image } from 'semantic-ui-react'
+import { Card } from 'semantic-ui-react'
 import { useHistory } from "react-router-dom"
 
 function OneGame({ game }) {
@@ -19,7 +19,8 @@ function OneGame({ game }) {
                 <img 
                     className="card-img"
                     src={game.image}  
-                    onClick={() => handleClickGameCard(game.id)} size="medium"/>
+                    onClick={() => handleClickGameCard(game.id)} size="medium"
+                    alt="game"/>
             </div>
             <Card.Content>
                 <Card.Header>{game.name}</Card.Header>

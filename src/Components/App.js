@@ -12,7 +12,7 @@ function App() {
 
   const [games, setGames] = useState([])
   const [searchInput, setSearchInput] = useState("")
-  const [isDarkMode, setIsDarkMode] = useState(true)
+  const [isDarkMode, setIsDarkMode] = useState(false)
   const [selectedGenres, setSelectedGenres] = useState([])
   
 
