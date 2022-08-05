@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import { Menu, Input, Dropdown } from 'semantic-ui-react'
 import AddGame from "./AddGame";
+import { ThemeContext } from "../Context/ThemeContext";
 
 
 function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput, games, setGames }) {
@@ -10,6 +11,7 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
   const [selectedPlatforms, setSelectedPlatforms] = useState([])
   const [selectedAddGenres, setSelectedAddGenres] = useState("")
   const [isMenuClicked, setIsMenuClicked] = useState(false)
+  const { isDarkMode } = useContext(ThemeContext)
 
   function handleMenu(){
     setIsMenuClicked(!isMenuClicked)
@@ -41,7 +43,7 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
   ]
 
   return (
-    <Menu>
+    <Menu className="nav" inverted={!isDarkMode}>
       <Menu.Item
         name="Home"
         active={activeItem === "Home"}

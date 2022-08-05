@@ -1,8 +1,6 @@
 import React, { useContext } from "react";
-import logoLight from "../image/gitgudlogoLight.png"
-import logoDark from "../image/gitgudlogoDark.png"
-import GitGUDLight from "../image/GitGUDLight.png"
-import GitGUDDark from "../image/GitGUDDark.png"
+import GitGUDBannerDark from "../image/GitGUDBannerDark.gif"
+import GitGUDBannerLight from "../image/GitGUDBannerLight.gif"
 import { ThemeContext } from "../Context/ThemeContext";
 
 function Header() {
@@ -12,7 +10,7 @@ function Header() {
     return (
         <div>
             <img 
-                src={isDarkMode ? GitGUDDark : GitGUDLight} 
+                src={isDarkMode ? GitGUDBannerDark : GitGUDBannerLight} 
                 alt="Git Gud Logo (Light)" 
                 id="main-header" />
             {/* <button onClick={() => toggleIsDarkMode(!isDarkMode)}></button> */}

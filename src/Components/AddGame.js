@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Dropdown } from "semantic-ui-react"
+import { Dropdown, Button, Input } from "semantic-ui-react"
 
 function AddGame({
     addingGame,
@@ -15,7 +15,7 @@ function AddGame({
     const [description, setDescription] = useState("")
     const [review, setReview] = useState("")
     const [image, setImage] = useState("")
-    const [screenshot, setScreenshot] = useState('')
+    const [screenshots, setScreenshots] = useState('')
 
     function handleSelectedPlatforms(event, data) {
         setSelectedPlatforms(data.value)
@@ -26,8 +26,11 @@ function AddGame({
     }
 
     function handleSubmit(e) {
-
         e.preventDefault()
+        if (name.length === 0) {
+            handleMenu();
+            return null
+        }
         fetch("http://localhost:3001/games", {
             method: "POST",
             headers: {
@@ -38,13 +41,24 @@ function AddGame({
                 "description": description,
                 "reviews": review.length === 0 ? [] : [review],
                 "image": image,
-                "screenshot": screenshot,
+                "screenshots": screenshots,
                 "genre": selectedAddGenres,
-                "platforms": [selectedPlatforms]
+                "platforms": selectedPlatforms
             }),
         })
             .then((r) => r.json())
-            .then((newGame) => { addingGame(newGame) })
+            .then((newGame) => { 
+                addingGame(newGame) 
+                setName("")
+                setDescription("")
+                setReview("")
+                setImage("")
+                setDescription("")
+                setScreenshots("")
+                setSelectedAddGenres("")
+                setSelectedPlatforms([])
+                handleMenu();
+            })
     }
 
     const genres = [
@@ -63,7 +77,7 @@ function AddGame({
         { key: 'Andriod', text: 'Android', value: 'Android' },
         { key: 'Arcade', text: 'Arcade', value: 'Arcade' },
         { key: 'Gameboy', text: 'Gameboy', value: 'Gameboy' },
-        { key: 'iSO', text: 'iSO', value: 'iSO' },
+        { key: 'iOS', text: 'iOS', value: 'iOS' },
         { key: 'Linux', text: 'Linux', value: 'Linux' },
         { key: 'Amazon Luna', text: 'Amazon Luna', value: 'Amazon Luna' },
         { key: 'ChromeOS', text: 'ChromeOS', value: 'ChromeOS' },
@@ -100,41 +114,39 @@ function AddGame({
     ]
 
     return (
-        isMenuClicked ?
-            <div>
-                <form onSubmit={name.length < 1 ? handleSubmit : null}>
-                    <input type="text"
-                        name="name"
-                        placeholder="Game name"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                    />
-                    <input type="text"
-                        name="description"
-                        placeholder="Description"
-                        value={description}
-                        onChange={(e) => setDescription(e.target.value)}
-                    />
-                    <input type="text"
-                        name="review"
-                        placeholder="Review"
-                        value={review}
-                        onChange={(e) => setReview(e.target.value)}
-                    />
-                    <input
-                        type="text"
-                        name="image"
-                        placeholder="Image URL"
-                        value={image}
-                        onChange={(e) => setImage(e.target.value)}
-                    />
-                    <input
-                        type="text"
-                        name="screenshot"
-                        placeholder="Screenshot"
-                        value={screenshot}
-                        onChange={(e) => setScreenshot(e.target.value)}
-                    />
+        <div>
+            {isMenuClicked ?
+                <form onSubmit={name.length > 0 ? handleSubmit : null}>
+                        <Input
+                            type="text"
+                            name="name"
+                            placeholder="Game name"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)} />
+                        <Input
+                            type="text"
+                            name="description"
+                            placeholder="Description"
+                            value={description}
+                            onChange={(e) => setDescription(e.target.value)} />
+                        <Input
+                            type="text"
+                            name="review"
+                            placeholder="Review"
+                            value={review}
+                            onChange={(e) => setReview(e.target.value)} />
+                        <Input
+                            type="text"
+                            name="image"
+                            placeholder="Image URL"
+                            value={image}
+                            onChange={(e) => setImage(e.target.value)} />
+                        <Input
+                            type="text"
+                            name="screenshots"
+                            placeholder="Screenshots"
+                            value={screenshots}
+                            onChange={(e) => setScreenshots(e.target.value)} />
                     <Dropdown
                         placeholder='Genres'
                         fluid selection options={genres}
@@ -145,19 +157,22 @@ function AddGame({
                         fluid multiple selection options={platform}
                         onChange={(e, data) => handleSelectedPlatforms(e, data)}
                         value={selectedPlatforms} />
-                    <button
+                    <Button
                         type="submit"
-                        onClick={handleMenu} >
+                        onClick={handleSubmit} >
                         Add Game
-                    </button>
+                    </Button>
                 </form>
-            </div>
-            :
-            <button
-                type="submit"
-                onClick={handleMenu} >
-                Add Game
-            </button>
+                :
+                <div className="display-button">
+                <Button 
+                    compact
+                    type="submit"
+                    onClick={handleMenu}>
+                    Add Game
+                </Button>
+                </div>}
+        </div>
     )
 }
 

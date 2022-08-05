@@ -27,7 +27,7 @@ function GamesPage({ selectedGenres, games, searchInput }) {
             )
         })
     return (
-        <div>
+        <div className="games-display">
             <Card.Group itemsPerRow={4}>
                 {gameCards}
             </Card.Group>
