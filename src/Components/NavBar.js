@@ -1,24 +1,16 @@
 import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import { Menu, Input, Dropdown } from 'semantic-ui-react'
-import AddGame from "./AddGame";
 import { ThemeContext } from "../Context/ThemeContext";
 
 
 function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput, games, setGames }) {
 
   const [activeItem, setActiveItem] = useState("Home")
-  const [selectedPlatforms, setSelectedPlatforms] = useState([])
-  const [selectedAddGenres, setSelectedAddGenres] = useState("")
-  const [isMenuClicked, setIsMenuClicked] = useState(false)
   const { isDarkMode } = useContext(ThemeContext)
 
   function hideSearchAndFilter () {
-    return activeItem === "About Us"
-  }
-
-  function handleMenu(){
-    setIsMenuClicked(!isMenuClicked)
+    return activeItem === "Home"
   }
 
   function handleSearchChange(event) {
@@ -30,10 +22,6 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
     setSelectedGenres(data.value)
   }
   
-  function handleAddGame(newGame) {
-    setGames([...games, newGame])
-  }
-
   const options = [
     { key: 'Action', text: 'Action', value: 'Action' },
     { key: 'Adventure', text: 'Adventure', value: 'Adventure' },
@@ -63,7 +51,13 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
         onClick={() => setActiveItem("About Us")}>
         <Link to="/about"> About Us </Link>
       </Menu.Item>
-      {!hideSearchAndFilter() ? 
+      <Menu.Item
+        name="Add Game"
+        active={activeItem === "Add Game"}
+        onClick={() => setActiveItem("Add Game")}>
+        <Link to="/addgame"> Add Game </Link>
+      </Menu.Item>
+      {hideSearchAndFilter() ? 
       (<>
       <Menu.Item>
         <Input
@@ -79,14 +73,6 @@ function NavBar({ selectedGenres, setSelectedGenres, searchInput, setSearchInput
           onChange={(e, data) => handleSelectedChange(e, data)}
           value={selectedGenres} />
       </Menu.Item>
-      <AddGame
-        addingGame={handleAddGame}
-        selectedPlatforms={selectedPlatforms}
-        selectedAddGenres={selectedAddGenres}
-        setSelectedPlatforms={setSelectedPlatforms}
-        setSelectedAddGenres={setSelectedAddGenres}
-        handleMenu={handleMenu} 
-        isMenuClicked={isMenuClicked}/>
       </>) : null}
       
     </Menu>

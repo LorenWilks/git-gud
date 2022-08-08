@@ -7,7 +7,6 @@ function Ratings({ game }) {
 
 
     function handleChangeRate(newRating) {
-        console.log(newRating)
 
         fetch(`http://localhost:3001/games/${game.id}`, {
             method: "PATCH",

@@ -4,7 +4,6 @@ import OneGame from "./OneGame"
 
 function GamesPage({ selectedGenres, games, searchInput }) {
 
-
     const gameCards = games
         .filter(game => {
             console.log(game)

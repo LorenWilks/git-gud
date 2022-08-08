@@ -1,5 +1,5 @@
-import React, {useState, useContext} from "react";
-import { Segment, Input } from 'semantic-ui-react'
+import React, { useState, useContext } from "react";
+import { Segment, Input, Form, TextArea } from 'semantic-ui-react'
 import { ThemeContext } from "../Context/ThemeContext";
 
 
@@ -43,14 +43,16 @@ function Review({ game }) {
                 onSubmit={addReview}>
                 <label>Add Your Review!</label>
                 <Segment inverted={isDarkMode}>
-                    <Input
-                        inverted={isDarkMode}
-                        type="text"
-                        name="reviews"
-                        placeholder="Add Review"
-                        value={userReview}
-                        onChange={(e) => setUserReview(e.target.value)} />
-                    <Input type="submit" className="button-margin" />
+                    <Form>
+                        <TextArea
+                            inverted={isDarkMode}
+                            type="text"
+                            name="reviews"
+                            placeholder="Add Review"
+                            value={userReview}
+                            onChange={(e) => setUserReview(e.target.value)} />
+                        <Input type="submit" className="button-margin" />
+                    </Form>
                 </Segment>
             </form>
         </div>
