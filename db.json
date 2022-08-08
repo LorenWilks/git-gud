@@ -6,7 +6,7 @@
       "description": "In the game, two teams of five players battle in player-versus-player combat. Each team occupying and defending their half of the map. Each of the ten players controls a character, known as a champion, with unique abilities and differing styles of play. During a match, champions become more powerful by collecting experience points, earning gold, and purchasing items to defeat the opposing team",
       "genre": "MOBA",
       "image": "https://m.media-amazon.com/images/M/MV5BYjM2NmU3YmEtZDI1OC00NTQ5LWJmOGMtYmZmNGUyMWRlODBmXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_FMjpg_UX1000_.jpg",
-      "rating system": 2.5,
+      "rating system": 5,
       "platforms": [
         "Microsoft Windows",
         "OS X"
@@ -106,7 +106,7 @@
       "description": "Described as a hero shooter, Overwatch assigns players into two teams of six, with each player selecting from a large roster of characters, known as heroes, with unique abilities. Teams work to complete map-specific objectives within a limited period of time.",
       "genre": "FPS",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.playbuzz.com%2Fimage%2Fupload%2Far_1.5%2Cc_pad%2Cf_jpg%2Cb_auto%2Fcdn%2F5371b1e4-cc0b-4eea-930a-8e269b736775%2F72325bb8-2e85-4aaa-8690-75c58a2f6719.jpg&f=1&nofb=1",
-      "rating system": 0,
+      "rating system": 2.5,
       "platforms": [
         "Microsoft Windows",
         "PS4",
@@ -114,7 +114,9 @@
         "Nintendo Switch"
       ],
       "screenshots": "",
-      "reviews": []
+      "reviews": [
+        "This game gave me a headache!"
+      ]
     },
     {
       "id": 8,
@@ -240,7 +242,7 @@
       "description": "A player versus player shooter game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive. Players can choose to enter the match solo, duo, or with a small team of up to four people. The last person or team alive wins the match.",
       "genre": "Battle Royale Game",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAATXAJy4nPoQci-6e56QnGP_jn-0LgI_w8vBkTzSatjG%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1",
-      "rating system": 0,
+      "rating system": 1.5,
       "platforms": [
         "Microsoft Windows",
         "Android",
@@ -822,6 +824,38 @@
         "Linux"
       ],
       "id": 48
+    },
+    {
+      "name": "Tekken 7",
+      "description": "With a new display system, the game's multiplayer allows players to choose which side of the screen to play on.[8] Movement has undergone some changes and is similar to the movement mechanics found in Tekken Revolution, most notably when characters walk backwards. The arcade version features the traditional stage-based playthrough, in which the player progresses by beating five different opponents one by one, ending with a fixed penultimate and final stage. Matches may be interrupted if another player joins the game.",
+      "reviews": [
+        "This game is insane!"
+      ],
+      "image": "https://image.api.playstation.com/cdn/EP0700/CUSA06014_00/VldTQeTDNyUtkszLA9Sa4p5K1VNqLPaiSuHrOHOsFyh6wEgrFxoWWXh7ANwUtcL2.png",
+      "screenshots": "https://cdn.wccftech.com/wp-content/uploads/2017/05/Tekken-7-05.31.2017-21.09.55.08-740x416.jpg",
+      "genre": "Fighting Game",
+      "platforms": [
+        "Arcade",
+        "Nintendo",
+        "Nintendo Switch",
+        "PS"
+      ],
+      "id": 49,
+      "rating system": 5
+    },
+    {
+      "name": "The Legend of Zelda: Twilight Princess",
+      "description": "The Legend of Zelda: Twilight Princess is an action-adventure game focused on combat, exploration, and puzzle-solving. It uses the basic control scheme introduced in Ocarina of Time, including context-sensitive action buttons and L-targeting (Z-targeting on the Wii), a system that allows the player to keep Link's view focused on an enemy or important object while moving and attacking. Link can walk, run, and attack, and he will automatically jump when running off of or reaching for a ledge. Link uses a sword and shield in combat, complemented with secondary weapons and items, including a bow and arrows, a boomerang, and bombs. While L-targeting, projectile-based weapons can be fired at a target without the need for manual aiming.",
+      "reviews": [],
+      "image": "https://m.media-amazon.com/images/I/51oJf+-XI1L._AC_.jpg",
+      "screenshots": "https://nintendoeverything.com/wp-content/uploads/zelda-twilight-hd-screen-jan-22.jpg",
+      "genre": "Adventure",
+      "platforms": [
+        "Wii",
+        "Gamecube"
+      ],
+      "id": 50,
+      "rating system": 5
     }
   ]
 }

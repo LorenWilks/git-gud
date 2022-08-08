@@ -1,5 +1,8 @@
-import { useState } from "react"
-import { Dropdown, Button, Input } from "semantic-ui-react"
+import { useState, useContext } from "react"
+import { Dropdown, Button, Input, Form, TextArea } from "semantic-ui-react"
+import { ThemeContext } from "../Context/ThemeContext";
+import GameDark from "../image/GameDark.gif"
+import GameLight from "../image/GameLight.gif"
 
 function AddGame({
     addingGame,
@@ -16,6 +19,8 @@ function AddGame({
     const [review, setReview] = useState("")
     const [image, setImage] = useState("")
     const [screenshots, setScreenshots] = useState('')
+
+    const { isDarkMode } = useContext(ThemeContext)
 
     function handleSelectedPlatforms(event, data) {
         setSelectedPlatforms(data.value)
@@ -47,8 +52,8 @@ function AddGame({
             }),
         })
             .then((r) => r.json())
-            .then((newGame) => { 
-                addingGame(newGame) 
+            .then((newGame) => {
+                addingGame(newGame)
                 setName("")
                 setDescription("")
                 setReview("")
@@ -119,64 +124,79 @@ function AddGame({
     ]
 
     return (
-        <div>
-            {isMenuClicked ?
-                <form onSubmit={name.length > 0 ? handleSubmit : null}>
-                        <Input
-                            type="text"
-                            name="name"
-                            placeholder="Game name"
-                            value={name}
-                            onChange={(e) => setName(e.target.value)} />
-                        <Input
-                            type="text"
-                            name="description"
-                            placeholder="Description"
-                            value={description}
-                            onChange={(e) => setDescription(e.target.value)} />
-                        <Input
-                            type="text"
-                            name="review"
-                            placeholder="Review"
-                            value={review}
-                            onChange={(e) => setReview(e.target.value)} />
-                        <Input
-                            type="text"
-                            name="image"
-                            placeholder="Image URL"
-                            value={image}
-                            onChange={(e) => setImage(e.target.value)} />
-                        <Input
-                            type="text"
-                            name="screenshots"
-                            placeholder="Screenshots"
-                            value={screenshots}
-                            onChange={(e) => setScreenshots(e.target.value)} />
+        <div className="form-display">
+            <div>
+            <img 
+                src={isDarkMode ? GameDark : GameLight} 
+                alt="Git Gud Logo (Light)" 
+                id="main-header" />
+            {/* <button onClick={() => toggleIsDarkMode(!isDarkMode)}></button> */}
+        </div>
+            <Form>
+                <Form.Field onSubmit={name.length > 0 ? handleSubmit : null}>
+                    <Input
+                        type="text"
+                        name="name"
+                        placeholder="Game name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)} />
+                </Form.Field>
+                <Form.Field>
+                    <TextArea
+                        type="text"
+                        name="description"
+                        placeholder="Description"
+                        value={description}
+                        onChange={(e) => setDescription(e.target.value)} />
+                </Form.Field>
+                <Form.Field>
+                    <Input
+                        type="text"
+                        name="review"
+                        placeholder="Review"
+                        value={review}
+                        onChange={(e) => setReview(e.target.value)} />
+                </Form.Field>
+                <Form.Field>
+                    <Input
+                        type="text"
+                        name="image"
+                        placeholder="Image URL"
+                        value={image}
+                        onChange={(e) => setImage(e.target.value)} />
+                </Form.Field>
+                <Form.Field>
+                    <Input
+                        type="text"
+                        name="screenshots"
+                        placeholder="Screenshots"
+                        value={screenshots}
+                        onChange={(e) => setScreenshots(e.target.value)} />
+                </Form.Field>
+                <Form.Field>
                     <Dropdown
                         placeholder='Genres'
                         fluid selection options={genres}
                         onChange={(e, data) => handleSelectedAddGenres(e, data)}
                         value={selectedAddGenres} />
+                </Form.Field>
+                <Form.Field>
                     <Dropdown
                         placeholder='Platforms'
                         fluid multiple selection options={platform}
                         onChange={(e, data) => handleSelectedPlatforms(e, data)}
                         value={selectedPlatforms} />
-                    <Button
-                        type="submit"
-                        onClick={handleSubmit} >
-                        Add Game
-                    </Button>
-                </form>
-                :
-                <div className="display-button">
-                <Button 
-                    compact
+                </Form.Field>
+                <Button
                     type="submit"
-                    onClick={handleMenu}>
-                    Add Game
+                    onClick={handleSubmit} >
+                    Submit
                 </Button>
-                </div>}
+            </Form>
+            <div className="cat-gamer">
+                    <h1>Victory Awaits!</h1>
+                    <img src="https://c.tenor.com/Q5dH7srnB6EAAAAj/capoo-bug-cat.gif" alt="Cat Gamer" />
+                </div>
         </div>
     )
 }
